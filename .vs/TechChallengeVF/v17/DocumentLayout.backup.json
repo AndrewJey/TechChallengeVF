@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\web_sample\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\web_sample\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\web_sample\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\web_sample\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\db_credentials.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\docs\\db_credentials.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scraper.log||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\scraper.log||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\TechChallengeVF.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\data\\results.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\data\\results.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\Selenium.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\docs\\Selenium.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\docs\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\data\\files.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\data\\files.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -29,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\llm_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\Connections\\llm_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\db_credentials.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\docs\\db_credentials.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\docs\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "db_credentials.txt",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\db_credentials.txt",
               "RelativeDocumentMoniker": "TechChallengeVF\\docs\\db_credentials.txt",
@@ -63,12 +87,73 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\web_sample\\js\\main.js",
+              "RelativeDocumentMoniker": "TechChallengeVF\\web_sample\\js\\main.js",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\web_sample\\js\\main.js",
+              "RelativeToolTip": "TechChallengeVF\\web_sample\\js\\main.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-15T14:59:56.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "scraper.log",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scraper.log",
+              "RelativeDocumentMoniker": "TechChallengeVF\\scraper.log",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scraper.log",
+              "RelativeToolTip": "TechChallengeVF\\scraper.log",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-06-15T14:53:57.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Selenium.txt",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\Selenium.txt",
+              "RelativeDocumentMoniker": "TechChallengeVF\\docs\\Selenium.txt",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\Selenium.txt",
+              "RelativeToolTip": "TechChallengeVF\\docs\\Selenium.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-15T14:50:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "results.json",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\data\\results.json",
+              "RelativeDocumentMoniker": "TechChallengeVF\\data\\results.json",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\data\\results.json",
+              "RelativeToolTip": "TechChallengeVF\\data\\results.json",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T14:46:59.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "files.json",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\data\\files.json",
+              "RelativeDocumentMoniker": "TechChallengeVF\\data\\files.json",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\data\\files.json",
+              "RelativeToolTip": "TechChallengeVF\\data\\files.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T14:46:50.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -80,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "pruebaLLM.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\pruebaLLM.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\pruebaLLM.py",
@@ -93,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "scraper_static.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scraper_static.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\scraper_static.py",
@@ -106,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "main.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\main.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\main.py",
@@ -123,28 +208,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\web_sample\\index.html",
+              "RelativeDocumentMoniker": "TechChallengeVF\\web_sample\\index.html",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\web_sample\\index.html",
+              "RelativeToolTip": "TechChallengeVF\\web_sample\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-15T09:30:54.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TechChallengeVF.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\TechChallengeVF.py",
               "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py",
               "RelativeToolTip": "TechChallengeVF\\TechChallengeVF.py",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-06-15T12:46:47.509Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "requirements.txt",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\docs\\requirements.txt",
               "RelativeDocumentMoniker": "TechChallengeVF\\docs\\requirements.txt",
@@ -156,8 +246,20 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "llm_selector.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\llm_selector.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\llm_selector.py",
@@ -170,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "database.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\database.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\database.py",
@@ -183,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": ".env",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\.env",
               "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\.env",

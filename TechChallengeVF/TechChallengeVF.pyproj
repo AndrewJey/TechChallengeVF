@@ -55,12 +55,13 @@
     <Content Include="web_sample\css\styles.css" />
     <Content Include="web_sample\data\events.json" />
     <Content Include="web_sample\data\files.json" />
-    <Content Include="web_sample\data\results.json" />
     <Content Include="web_sample\index.html" />
     <Content Include="web_sample\js\calendar.js" />
     <Content Include="web_sample\js\files.js" />
     <Content Include="web_sample\js\main.js" />
     <Content Include="web_sample\js\results.js" />
+    <Content Include="web_sample\data\results.json" />
+    <Content Include="web_sample\data\results2.json" />
     <Content Include="web_sample\README.md" />
     <Content Include="web_sample\vf-challlenge.iml" />
   </ItemGroup>

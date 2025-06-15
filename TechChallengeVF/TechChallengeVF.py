@@ -34,7 +34,7 @@ def scrape():
         products = driver.find_elements(By.CLASS_NAME, "result-content")
         for product in products:
             try:
-                title = product.find_element(By.CLASS_NAME, "result-title text-ellipsis").text
+                title = product.find_element(By.CLASS_NAME, "result-title").text
                 price = product.find_element(By.CLASS_NAME, "price").text
                 image = product.find_element(By.TAG_NAME, "img").get_attribute("src")
                 save_product(title, price, image)

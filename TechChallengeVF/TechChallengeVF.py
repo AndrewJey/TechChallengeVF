@@ -11,12 +11,15 @@ import time
 # import sys
 import traceback  # For detailed exception and error handling
 import generate_results_json
+from selenium.webdriver.chrome.service import Service  # For managing the ChromeDriver service
 # Scraper for Tienda Importadora Monge
 def scrape():
     logger.info("Starting scraping from Tienda Importadora Monge...")
     options = Options()
     options.add_argument("--headless")
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    service = Service(ChromeDriverManager().install())  # Use Service wrapper
+    driver = webdriver.Chrome(service=service, options=options)  # Initialize the driver with the service
+    #driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     try:
         driver.get("https://www.tiendamonge.com/productos/celulares-y-tablets/celulares")
         time.sleep(5)
@@ -28,10 +31,10 @@ def scrape():
             if new_height == last_height:
                 break
             last_height = new_height
-        products = driver.find_elements(By.CLASS_NAME, "product-item")
+        products = driver.find_elements(By.CLASS_NAME, "result-content")
         for product in products:
             try:
-                title = product.find_element(By.CLASS_NAME, "product-item-name").text
+                title = product.find_element(By.CLASS_NAME, "result-title text-ellipsis").text
                 price = product.find_element(By.CLASS_NAME, "price").text
                 image = product.find_element(By.TAG_NAME, "img").get_attribute("src")
                 save_product(title, price, image)

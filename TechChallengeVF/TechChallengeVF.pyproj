@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Connections\logger.py" />
     <Compile Include="TechChallengeVF.py" />
   </ItemGroup>
   <ItemGroup>

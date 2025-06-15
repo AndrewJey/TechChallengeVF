@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>TechChallengeVF</Name>
     <RootNamespace>TechChallengeVF</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,11 +26,16 @@
     <Compile Include="Connections\logger.py" />
     <Compile Include="Connections\pruebaLLM.py" />
     <Compile Include="scheduler.py" />
+    <Compile Include="scraper_static.py" />
     <Compile Include="TechChallengeVF.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Connections\" />
+    <Folder Include="web_sample\" />
+    <Folder Include="web_sample\css\" />
+    <Folder Include="web_sample\data\" />
+    <Folder Include="web_sample\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Connections\.env" />
@@ -38,6 +44,28 @@
     <Content Include="Documents\Requerimientos.txt" />
     <Content Include="Documents\Selenium.txt" />
     <Content Include="ReadMe.md" />
+    <Content Include="web_sample\css\styles.css" />
+    <Content Include="web_sample\data\events.json" />
+    <Content Include="web_sample\data\files.json" />
+    <Content Include="web_sample\data\results.json" />
+    <Content Include="web_sample\index.html" />
+    <Content Include="web_sample\js\calendar.js" />
+    <Content Include="web_sample\js\files.js" />
+    <Content Include="web_sample\js\main.js" />
+    <Content Include="web_sample\js\results.js" />
+    <Content Include="web_sample\README.md" />
+    <Content Include="web_sample\vf-challlenge.iml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.9</Version>
+      <Description>env (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

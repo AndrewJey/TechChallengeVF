@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>TechChallengeVF</Name>
     <RootNamespace>TechChallengeVF</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

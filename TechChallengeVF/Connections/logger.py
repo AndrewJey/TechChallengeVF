@@ -4,6 +4,7 @@ import logging
 # Import JSON (for handling JSON and conversions) and SYS (for interacting with OS and accessing the PC)
 import json
 import sys
+from datetime import datetime  # To handle dateTime
 # Format logs in JSON format
 class JsonFormatter(logging.Formatter):
     # Override the format method
@@ -11,6 +12,7 @@ class JsonFormatter(logging.Formatter):
         # Convert log record data to JSON
         return json.dumps({
             "level": record.levelname,
+            "timestamp": datetime.utcnow().isoformat(),  # Adds DateTime in UTC format
             "message": record.getMessage(),
             "name": record.name
         })

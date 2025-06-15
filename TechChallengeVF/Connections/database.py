@@ -2,12 +2,13 @@
 # Importes y referencias
 import psycopg2 # Adaptador para PostGreSQL
 import os
-from TechChallengeVF.Connections.logger import logger
+from .logger import logger
 #Obtener credenciales de archivo de texto (por seguridad es mejor no quemarlos)
 def get_credentials_from_txt():
     try:
         with open("db_credentials.txt", "r") as f:
             lines = f.read().splitlines()
+
             return {
                 "dbname": lines[0],
                 "user": lines[1],

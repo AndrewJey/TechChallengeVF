@@ -4,10 +4,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from TechChallengeVF.Connections.database import save_product
-from TechChallengeVF.Connections.logger import logger
+from Connections.database import save_product
+from Connections.logger import logger
 import time 
-import sys 
+# import sys
 import traceback # Para manejar excepciones y errores de forma más detallada
 # Método principal del programa
 if __name__ == "__main__":

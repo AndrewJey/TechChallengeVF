@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from Connections.database import save_product
 from Connections.logger import logger
-from main import run_scraping_full
+#from main import run_scraping_full
 import time
 # import sys
 import traceback  # For detailed exception and error handling
@@ -48,8 +48,7 @@ if __name__ == "__main__":
     try:
         print("Program started")
         input("Press any key to continue...")
-        from main import run_scraping_full
-        run_scraping_full()
+        scrape()  # Ejecuta directamente la función
     except Exception as e:
         print("An error occurred:", e)
         traceback.print_exc()

@@ -12,7 +12,7 @@ class JsonFormatter(logging.Formatter):
         # Convert log record data to JSON
         return json.dumps({
             "level": record.levelname,
-            "timestamp": datetime.utcnow().isoformat(),  # Adds DateTime in UTC format
+            "timestamp": datetime.now().isoformat(),  # Adds DateTime inlocal timezone
             "message": record.getMessage(),
             "name": record.name
         })

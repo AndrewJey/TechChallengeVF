@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Connections\database.py" />
+    <Compile Include="Connections\llm_selector.py" />
     <Compile Include="Connections\logger.py" />
     <Compile Include="Connections\pruebaLLM.py" />
     <Compile Include="scheduler.py" />

@@ -8,3 +8,4 @@ scheduler.add_job(scrape, 'interval', hours=1)
 # Iniciar el scheduler
 if __name__ == "__main__":
     scheduler.start()
+    print("Scheduler iniciado, ejecutando scraping cada hora...")

@@ -14,6 +14,7 @@ if __name__ == "__main__":
     try: 
         # Inicia el Programa
         print("Inicio del programa")
+        scrape()  # Ejecutar scraping inmediatamente
         input("Presiona una tecla para continuar...")
         # Scrapeo web
         def scrape():

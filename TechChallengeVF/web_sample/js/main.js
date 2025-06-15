@@ -6,12 +6,6 @@
 // Wait for the DOM to be fully loaded before executing any JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Application initialized');
-    fetch("results2.json")
-        .then(response => response.json())
-        .then(data => {
-            console.log("Productos:", data);
-            // Aquí actualizás el DOM con los datos
-        });
     // Initialize all components
     initCalendar();
     initResults();

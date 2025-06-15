@@ -28,6 +28,7 @@
     <Compile Include="Connections\pruebaLLM.py" />
     <Compile Include="generate_files_json.py" />
     <Compile Include="generate_results_json.py" />
+    <Compile Include="json_api_server.py" />
     <Compile Include="main.py" />
     <Compile Include="scheduler.py" />
     <Compile Include="scraper_static.py" />
@@ -61,7 +62,6 @@
     <Content Include="web_sample\js\main.js" />
     <Content Include="web_sample\js\results.js" />
     <Content Include="web_sample\data\results.json" />
-    <Content Include="web_sample\data\results2.json" />
     <Content Include="web_sample\README.md" />
     <Content Include="web_sample\vf-challlenge.iml" />
   </ItemGroup>

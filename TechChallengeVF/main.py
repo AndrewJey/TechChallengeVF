@@ -14,7 +14,7 @@ def run_scraping_full():
     try:
         # 1. Real web scraping using Selenium
         logger.info("Starting scraping with Selenium from Tienda Monge...")
-        #scrape()
+        scrape()
         logger.info("Selenium scraping completed.")
 
         # 2. Scraping local files (if applicable)
@@ -41,7 +41,7 @@ def run_scraping_full():
         print(f"Suggested selector (CSS): {css_selector}")
 
         # 5. Interactive test (optional)
-        pruebaLLM.main()  # Uncomment if you want to launch interactive console
+        #pruebaLLM.main()  # Uncomment if you want to launch interactive console
 
         logger.info("=== END: Full system execution ===")
 

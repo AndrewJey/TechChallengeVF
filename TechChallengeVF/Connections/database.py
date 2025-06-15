@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Importes y referencias
 import psycopg2 # Adaptador para PostGreSQL
 import os
@@ -17,7 +18,7 @@ def get_credentials_from_txt():
     except Exception as e:
         logger.exception("No se pudieron cargar las credenciales desde el .txt")
         raise
-# Conección a Base de Datos
+# ConecciÃ³n a Base de Datos
 def get_connection():
     credenciales = get_credentials_from_txt()
     return psycopg2.connect(
@@ -30,7 +31,7 @@ def get_connection():
 # To save the products from scrapped website
 def save_product(title, price, image_url):
     try:
-        conn = get_connection() # Obtener conexión a la base de datos   
+        conn = get_connection() # Obtener conexiÃ³n a la base de datos   
         punter = conn.cursor() # Puntero de Comandos SQL
         punter.execute("""
             CREATE TABLE IF NOT EXISTS products (
@@ -43,6 +44,6 @@ def save_product(title, price, image_url):
         punter.execute("INSERT INTO products (title, price, image_url) VALUES (%s, %s, %s);", (title, price, image_url))
         conn.commit() # Enviar los cambios en la base de datos
         punter.close() # Cerrar el puntero
-        conn.close() # Cerrar la conexión con la DB
+        conn.close() # Cerrar la conexiÃ³n con la DB
     except Exception as e:
         logger.exception("Error guardando producto en la base de datos")

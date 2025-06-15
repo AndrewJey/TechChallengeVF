@@ -1,10 +1,12 @@
-# Importar librerías de "logging", para registrar logs y errores
+# -*- coding: utf-8 -*-
+# Importar librerÃ­as de "logging", para registrar logs y errores
 import logging
-# Importar librerías de JSON (para trabajar JSON's y conversiones) y SYS (para trabajar con OS y acceder la PC)
+# Importar librerÃ­as de JSON (para trabajar JSON's y conversiones) y SYS (para trabajar con OS y acceder la PC)
 import json
 import sys
 # Formatear los logs en formato JSON
 class JsonFormatter(logging.Formatter):
+    # Format method override
     def format(self, record):
         # Convertir los datos del registro de log en JSON
         return json.dumps({

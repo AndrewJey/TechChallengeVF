@@ -1,4 +1,5 @@
-﻿# Importes y referencias
+﻿# -*- coding: utf-8 -*-
+# Importes y referencias
 import os # Para acceder a las variables de entorno
 from openai import OpenAI # Cliente de OpenAI para interactuar con el modelo LLM - Usar ChatGPT
 from dotenv import load_dotenv # Para cargar las variables de entorno desde un archivo .env 

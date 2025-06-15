@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Refrencias e Importes
 from apscheduler.schedulers.blocking import BlockingScheduler # Importar un scheduler bloqueador 
 from TechChallengeVF.TechChallengeVF import scrape

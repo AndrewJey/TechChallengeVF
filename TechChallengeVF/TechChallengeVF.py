@@ -9,6 +9,7 @@ from Connections.logger import logger
 import time
 # import sys
 import traceback  # For detailed exception and error handling
+import generate_results_json
 # Main program method
 if __name__ == "__main__":
     try:
@@ -52,6 +53,7 @@ if __name__ == "__main__":
                 logger.exception("Error during scraping")
             finally:
                 driver.quit()
+                generate_results_json.export_products_to_json()
                 logger.info("Scraping finished.")  # Log scraping completion
     # General exception handler
     except Exception as e:

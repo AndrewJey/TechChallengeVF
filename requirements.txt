@@ -9,11 +9,18 @@ psycopg2-binary
 
 # Scheduling and recurring tasks
 apscheduler
+
+# Enviroment variables 
 python-dotenv
 
 # OpenAI API client
 openai
 azure-ai-ml
 
-# Console processes
+# LLM selector y consola
 tqdm
+
+# Others and new ones
+flask          # If you plan to use APIs
+flask-cors     # To allow requests from other sources
+pandas         # To allow manipulation of data bulk

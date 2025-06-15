@@ -26,6 +26,9 @@
     <Compile Include="Connections\llm_selector.py" />
     <Compile Include="Connections\logger.py" />
     <Compile Include="Connections\pruebaLLM.py" />
+    <Compile Include="generate_files_json.py" />
+    <Compile Include="generate_results_json.py" />
+    <Compile Include="main.py" />
     <Compile Include="scheduler.py" />
     <Compile Include="scraper_static.py" />
     <Compile Include="TechChallengeVF.py" />
@@ -33,6 +36,7 @@
   <ItemGroup>
     <Folder Include="docs\" />
     <Folder Include="Connections\" />
+    <Folder Include="data\" />
     <Folder Include="web_sample\" />
     <Folder Include="web_sample\css\" />
     <Folder Include="web_sample\data\" />

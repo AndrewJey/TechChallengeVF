@@ -7,7 +7,7 @@ from .logger import logger
 # Retrieve credentials from a text file (better than hardcoding for security)
 def get_credentials_from_txt():
     try:
-        with open("db_credentials.txt", "r") as f:
+        with open("docs/db_credentials.txt", "r") as f:
             lines = f.read().splitlines()
             # Ensure the file contains all necessary lines
             return {

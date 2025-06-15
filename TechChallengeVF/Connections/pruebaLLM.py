@@ -34,12 +34,15 @@ def get_selector(html_fragment: str, target_info: str, selector_type: str = "CSS
     return response.choices[0].message.content.strip()
 
 # Interactive console usage
-if __name__ == "__main__":
+def main():
     print("LLM Selector Generator (CSS/XPath)")
     html_fragment = input("HTML fragment:\n")
     target_info = input("What do you want to extract? (e.g., title, price): ")
     selector_type = input("Selector type (CSS or XPath): ")
-    
+
     # Generate the selector using the LLM
     selector = get_selector(html_fragment, target_info, selector_type)
     print(f"\nSuggested selector ({selector_type.upper()}):\n{selector}")
+    
+if __name__ == "__main__":
+    main()

@@ -30,7 +30,7 @@
     <Compile Include="TechChallengeVF.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Documents\" />
+    <Folder Include="docs\" />
     <Folder Include="Connections\" />
     <Folder Include="web_sample\" />
     <Folder Include="web_sample\css\" />
@@ -39,10 +39,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Connections\.env" />
-    <Content Include="Documents\Arquitectura.md" />
-    <Content Include="Documents\db_credentials.txt" />
-    <Content Include="Documents\Requerimientos.txt" />
-    <Content Include="Documents\Selenium.txt" />
+    <Content Include="docs\Arquitectura.md" />
+    <Content Include="docs\db_credentials.txt" />
+    <Content Include="docs\requirements.txt" />
+    <Content Include="docs\Selenium.txt" />
     <Content Include="ReadMe.md" />
     <Content Include="web_sample\css\styles.css" />
     <Content Include="web_sample\data\events.json" />

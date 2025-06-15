@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Imports and References
 from apscheduler.schedulers.blocking import BlockingScheduler  # Import a blocking scheduler
-from TechChallengeVF.TechChallengeVF import scrape
+from TechChallengeVF import scrape
 from main import run_scraping_full 
 import generate_results_json # Import the function to generate JSON files
 # Scheduled function: scraping + exporting JSON

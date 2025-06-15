@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b9bef5b-cfb6-4b06-9e38-b69a89b4c2f4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TechChallengeVF.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

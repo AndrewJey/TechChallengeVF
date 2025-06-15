@@ -18,7 +18,7 @@ if __name__ == "__main__":
         print("Program started")
         # Continue
         input("Press any key to continue...") 
-        #run_scraping_full()
+        run_scraping_full()
         # Web scraping method
         def scrape():
             # Log scraping start
@@ -44,11 +44,10 @@ if __name__ == "__main__":
                 products = driver.find_elements(By.CLASS_NAME, "product-item")
                 for product in products:
                     try:
-                        title = product.find_element(By.CLASS_NAME, "product-item-link").text
+                        title = product.find_element(By.CLASS_NAME, "product-item-name").text
                         price = product.find_element(By.CLASS_NAME, "price").text
                         image = product.find_element(By.TAG_NAME, "img").get_attribute("src")
                         save_product(title, price, image)
-                        print(f"{title} - {price} - {image}")
                     except Exception as e:
                         logger.error(f"Error processing product: {e}")
             # Exception if scraping fails

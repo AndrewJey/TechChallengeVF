@@ -1,1 +1,3 @@
 Justificación del uso de Selenium:
+
+py -m pip install selenium python-dotenv openai psycopg2-binary apscheduler

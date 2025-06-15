@@ -16,6 +16,7 @@ if __name__ == "__main__":
     try:
         # Program start
         print("Program started")
+
         # Continue
         input("Press any key to continue...") 
         run_scraping_full()

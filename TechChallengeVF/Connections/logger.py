@@ -1,27 +1,27 @@
 # -*- coding: utf-8 -*-
-# Importar librerías de "logging", para registrar logs y errores
+# Import "logging" libraries to record logs and errors
 import logging
-# Importar librerías de JSON (para trabajar JSON's y conversiones) y SYS (para trabajar con OS y acceder la PC)
+# Import JSON (for handling JSON and conversions) and SYS (for interacting with OS and accessing the PC)
 import json
 import sys
-# Formatear los logs en formato JSON
+# Format logs in JSON format
 class JsonFormatter(logging.Formatter):
-    # Format method override
+    # Override the format method
     def format(self, record):
-        # Convertir los datos del registro de log en JSON
+        # Convert log record data to JSON
         return json.dumps({
             "level": record.levelname,
             "message": record.getMessage(),
             "name": record.name
         })
-# Crear logger y el handler de salidas
+# Create logger and output handler
 logger = logging.getLogger("monge_logger")
 handler = logging.StreamHandler(sys.stdout)
 handler.setFormatter(JsonFormatter())
-# Configurar el nivel del logger para registrar de nivel INFO en adelante
+# Set logger level to log INFO and above
 logger.setLevel(logging.INFO)
-logger.addHandler(handler) # Se agrega el handler al logger
-# Guardar los logs en un archivo
+logger.addHandler(handler)  # Add the handler to the logger
+# Save logs to a file
 file_handler = logging.FileHandler("scraper.log")
 file_handler.setFormatter(JsonFormatter())
 logger.addHandler(file_handler)

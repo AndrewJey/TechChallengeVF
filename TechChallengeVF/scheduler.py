@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Refrencias e Importes
-from apscheduler.schedulers.blocking import BlockingScheduler # Importar un scheduler bloqueador 
+# Imports and References
+from apscheduler.schedulers.blocking import BlockingScheduler  # Import a blocking scheduler
 from TechChallengeVF.TechChallengeVF import scrape
-# Scheduler para ejecutar el scraping cada hora
+# Scheduler to run the scraping every hour
 scheduler = BlockingScheduler()
 scheduler.add_job(scrape, 'interval', hours=1)
-# Iniciar el scheduler
+# Start the scheduler
 if __name__ == "__main__":
     scheduler.start()
-    print("Scheduler iniciado, ejecutando scraping cada hora...")
+    print("Scheduler started, running scraping every hour...")

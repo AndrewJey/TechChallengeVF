@@ -1,44 +1,45 @@
 # -*- coding: utf-8 -*-
-# Selenium hasta la madre
+# Selenium to the limit
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from Connections.database import save_product
 from Connections.logger import logger
-import time 
+import time
 # import sys
-import traceback # Para manejar excepciones y errores de forma más detallada
-# Método principal del programa
+import traceback  # For detailed exception and error handling
+# Main program method
 if __name__ == "__main__":
-    try: 
-        # Inicia el Programa
-        print("Inicio del programa")
-        scrape()  # Ejecutar scraping inmediatamente
-        input("Presiona una tecla para continuar...")
-        # Scrapeo web
+    try:
+        # Program start
+        print("Program started")
+        # Run scraping immediately
+        scrape()
+        # Continue
+        input("Press any key to continue...") 
+        # Web scraping method
         def scrape():
-            # Registrar log de inicio del scraping
-            logger.info("Iniciando scraping de Tienda Importadora Monge...")
-            # Configurar el driver de Selenium para Chrome
-            options = Options() # Configurar opciones de Chrome para el scraping
-            options.add_argument("--headless") # Ejecutar Chrome en Segundo Plano (sin verse, "invisible")
-            driver = webdriver.Chrome(ChromeDriverManager().install(), options=options) # Instalar y Configurar el driver de Chrome    
-            # Iniciar el driver de Chrome y scrollear por la p�gina de productos    
+            # Log scraping start
+            logger.info("Starting scraping from Tienda Importadora Monge...")
+            # Set up Selenium Chrome driver options
+            options = Options()  # Configure Chrome options for scraping
+            options.add_argument("--headless")  # Run Chrome in the background (invisible)
+            driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)  # Install and set up Chrome driver
             try:
-                # Acceder a la p�gina de productos de celulares y tablets de Tienda Importadora Monge
+                # Access Monge's cellphones and tablets product page
                 driver.get("https://www.tiendamonge.com/productos/celulares-y-tablets/celulares")
-                time.sleep(5) # Esperar a que la p�gina cargue por 5 segundos
-                # Desplazar hacia abajo para cargar m�s productos
+                time.sleep(5)  # Wait for the page to load for 5 seconds
+                # Scroll down to load more products
                 last_height = driver.execute_script("return document.body.scrollHeight")
-                while True: # Scrollear para llegar al fin de la página
+                while True:  # Scroll until reaching the end of the page
                     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                    time.sleep(2) # Espera de carga de 2 segundos
+                    time.sleep(2)  # Wait for 2 seconds to load new content
                     new_height = driver.execute_script("return document.body.scrollHeight")
                     if new_height == last_height:
                         break
                     last_height = new_height
-                # Encontrar los productos en la página
+                # Find product elements on the page
                 products = driver.find_elements(By.CLASS_NAME, "product-card")
                 for product in products:
                     try:
@@ -47,15 +48,15 @@ if __name__ == "__main__":
                         image = product.find_element(By.TAG_NAME, "img").get_attribute("src")
                         save_product(title, price, image)
                     except Exception as e:
-                        logger.error(f"Error al procesar producto: {e}")
-            # Excepción en caso de errores en el scraping
+                        logger.error(f"Error processing product: {e}")
+            # Exception if scraping fails
             except Exception as e:
-                logger.exception("Error en el scraping")
+                logger.exception("Error during scraping")
             finally:
                 driver.quit()
-                logger.info("Scraping finalizado.") # Log del fin del scrap
-    # Excepción en caso de error
+                logger.info("Scraping finished.")  # Log scraping completion
+    # General exception handler
     except Exception as e:
-        print("Ocurrió un error:", e)
+        print("An error occurred:", e)
         traceback.print_exc()
-        input("Presiona una tecla para cerrar...")
+        input("Press any key to exit...")

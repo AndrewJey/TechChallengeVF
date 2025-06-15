@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
-# Importes y referencias
-import psycopg2 # Adaptador para PostGreSQL
+# Imports and references
+import psycopg2  # PostgreSQL adapter
 import os
 from .logger import logger
-#Obtener credenciales de archivo de texto (por seguridad es mejor no quemarlos)
+
+# Retrieve credentials from a text file (better than hardcoding for security)
 def get_credentials_from_txt():
     try:
         with open("db_credentials.txt", "r") as f:
             lines = f.read().splitlines()
-            # Verificar que el archivo tenga las líneas necesarias
+            # Ensure the file contains all necessary lines
             return {
                 "dbname": lines[0],
                 "user": lines[1],
@@ -17,24 +18,26 @@ def get_credentials_from_txt():
                 "port": lines[4]
             }
     except Exception as e:
-        logger.exception("No se pudieron cargar las credenciales desde el .txt")
+        logger.exception("Could not load credentials from the .txt file")
         raise
-# Conección a Base de Datos
+
+# Database connection
 def get_connection():
-    credenciales = get_credentials_from_txt()
+    credentials = get_credentials_from_txt()
     return psycopg2.connect(
-        dbname=credenciales["dbname"],
-        user=credenciales["user"],
-        password=credenciales["password"],
-        host=credenciales["host"],
-        port=credenciales["port"]
+        dbname=credentials["dbname"],
+        user=credentials["user"],
+        password=credentials["password"],
+        host=credentials["host"],
+        port=credentials["port"]
     )
-# To save the products from scrapped website
+
+# Save products from the scraped website
 def save_product(title, price, image_url):
     try:
-        conn = get_connection() # Obtener conexión a la base de datos   
-        punter = conn.cursor() # Puntero de Comandos SQL
-        punter.execute("""
+        conn = get_connection()  # Get database connection
+        cursor = conn.cursor()   # SQL command pointer
+        cursor.execute("""
             CREATE TABLE IF NOT EXISTS products (
                 id SERIAL PRIMARY KEY,
                 title TEXT,
@@ -42,18 +45,22 @@ def save_product(title, price, image_url):
                 image_url TEXT
             );
         """)
-        punter.execute("INSERT INTO products (title, price, image_url) VALUES (%s, %s, %s);", (title, price, image_url))
-        conn.commit() # Enviar los cambios en la base de datos
-        punter.close() # Cerrar el puntero
-        conn.close() # Cerrar la conexión con la DB
+        cursor.execute(
+            "INSERT INTO products (title, price, image_url) VALUES (%s, %s, %s);",
+            (title, price, image_url)
+        )
+        conn.commit()    # Commit changes to the database
+        cursor.close()   # Close the cursor
+        conn.close()     # Close the database connection
     except Exception as e:
-        logger.exception("Error guardando producto en la base de datos")
-# To save the file data from downloaded files
+        logger.exception("Error saving product to the database")
+
+# Save file metadata for downloaded files
 def save_file_data(filename, url, sha256):
     try:
         conn = get_connection()
-        cur = conn.cursor()
-        cur.execute("""
+        cursor = conn.cursor()
+        cursor.execute("""
             CREATE TABLE IF NOT EXISTS downloaded_files (
                 id SERIAL PRIMARY KEY,
                 filename TEXT,
@@ -62,9 +69,12 @@ def save_file_data(filename, url, sha256):
                 download_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
         """)
-        cur.execute("INSERT INTO downloaded_files (filename, url, sha256) VALUES (%s, %s, %s);", (filename, url, sha256))
+        cursor.execute(
+            "INSERT INTO downloaded_files (filename, url, sha256) VALUES (%s, %s, %s);",
+            (filename, url, sha256)
+        )
         conn.commit()
-        cur.close()
+        cursor.close()
         conn.close()
     except Exception as e:
-        logger.exception("Error guardando información del archivo")
+        logger.exception("Error saving file information to the database")

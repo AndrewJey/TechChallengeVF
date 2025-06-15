@@ -1,19 +1,19 @@
-# Web scraping y navegador automatizado
+# Web scraping and automated browser
 selenium
 webdriver-manager
 requests
 beautifulsoup4
 
-# Base de datos
+# Database
 psycopg2-binary
 
-# Programación y tareas recurrentes
+# Scheduling and recurring tasks
 apscheduler
 python-dotenv
 
-# OpenAI API client 
+# OpenAI API client
 openai
 azure-ai-ml
 
-# Procesos en consola
+# Console processes
 tqdm

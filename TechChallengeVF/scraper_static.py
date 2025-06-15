@@ -1,28 +1,34 @@
 # -*- coding: utf-8 -*-
-# Scraper para un sitio web estático local
+# Scraper for a static local website
 import requests, hashlib, os
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from Connections.database import get_connection, save_file_data
 from Connections.logger import logger
 from datetime import datetime
-# Configuración del localhost para la web
+
+# Localhost configuration for the web
 BASE_URL = "http://localhost:8000/"
 DOWNLOAD_FOLDER = "downloads"
-# Crear la tabla en la base de datos si no existe
+
+# Generate SHA-256 hash of file content
 def hash_file(content):
     return hashlib.sha256(content).hexdigest()
-# Crear la tabla en la base de datos si no existe
+
+# Main function to scrape a static site
 def scrape_static_site():
     if not os.path.exists(DOWNLOAD_FOLDER):
         os.makedirs(DOWNLOAD_FOLDER)
-    # Conexión a la base de datos   
-    logger.info("Iniciando scraping de sitio local")
+
+    # Log the start of the scraping
+    logger.info("Starting scraping from local site")
     response = requests.get(BASE_URL)
     soup = BeautifulSoup(response.content, "html.parser")
-    # Diccionario para almacenar archivos encontrados y sus hashes
+
+    # Dictionary to store found files and their hashes
     found_files = {}
-    # Buscar enlaces a archivos en el HTML
+
+    # Look for file links in the HTML
     files = soup.find_all("a", href=True)
     for file_link in files:
         href = file_link["href"]
@@ -30,57 +36,75 @@ def scrape_static_site():
             full_url = urljoin(BASE_URL, href)
             file_name = os.path.basename(href)
             local_path = os.path.join(DOWNLOAD_FOLDER, file_name)
-            # Verificar si el archivo ya existe en la carpeta de descargas
+
+            # Check if file already exists in the downloads folder
             try:
                 file_response = requests.get(full_url)
                 content = file_response.content
                 sha256 = hash_file(content)
                 found_files[file_name] = sha256
-                # Verificar si el archivo ya está en la base de datos
+
+                # Check if file is already in the database
                 conn = get_connection()
                 cur = conn.cursor()
                 cur.execute("SELECT sha256 FROM downloaded_files WHERE filename = %s;", (file_name,))
                 result = cur.fetchone()
-                # Si el archivo no está en la base de datos, o si el hash es diferente, lo descargamos
+
+                # If the file is new or has a different hash, download it
                 if result is None:
-                    # Nuevo archivo
+                    # New file
                     with open(local_path, "wb") as f:
                         f.write(content)
-                    cur.execute("INSERT INTO downloaded_files (filename, url, sha256) VALUES (%s, %s, %s);", (file_name, full_url, sha256))
-                    logger.info(f"[NUEVO] {file_name} descargado")
+                    cur.execute(
+                        "INSERT INTO downloaded_files (filename, url, sha256) VALUES (%s, %s, %s);",
+                        (file_name, full_url, sha256)
+                    )
+                    logger.info(f"[NEW] {file_name} downloaded")
                 elif result[0] != sha256:
-                    # Hash cambiado
+                    # Hash changed
                     with open(local_path, "wb") as f:
                         f.write(content)
-                    cur.execute("UPDATE downloaded_files SET sha256 = %s, last_seen = CURRENT_TIMESTAMP WHERE filename = %s;", (sha256, file_name))
-                    logger.warning(f"[CAMBIO] {file_name} actualizado (hash distinto)")
+                    cur.execute(
+                        "UPDATE downloaded_files SET sha256 = %s, last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
+                        (sha256, file_name)
+                    )
+                    logger.warning(f"[CHANGED] {file_name} updated (different hash)")
                 else:
-                    # Sin cambios, solo actualizar la fecha
-                    cur.execute("UPDATE downloaded_files SET last_seen = CURRENT_TIMESTAMP WHERE filename = %s;", (file_name,))
-                # Cerrar la conexión a la base de datos
+                    # No changes, just update the last seen timestamp
+                    cur.execute(
+                        "UPDATE downloaded_files SET last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
+                        (file_name,)
+                    )
+
+                # Close database connection
                 conn.commit()
                 cur.close()
                 conn.close()
-            # Si ocurre un error al descargar o procesar el archivo, registrar el error
+
+            # Handle download or processing errors
             except Exception as e:
-                logger.error(f"Error procesando {file_name}: {e}")
-    # Revisión para archivos eliminados
+                logger.error(f"Error processing {file_name}: {e}")
+
+    # Check for deleted files
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("SELECT filename FROM downloaded_files;")
     all_db_files = [row[0] for row in cur.fetchall()]
-    # Eliminar archivos que ya no están en el HTML   
+
+    # Remove files no longer present in the HTML
     for db_file in all_db_files:
         if db_file not in found_files:
-            logger.warning(f"[BORRADO] {db_file} ya no está en el HTML")
+            logger.warning(f"[DELETED] {db_file} is no longer in the HTML")
             try:
                 os.remove(os.path.join(DOWNLOAD_FOLDER, db_file))
             except:
                 pass
             cur.execute("DELETE FROM downloaded_files WHERE filename = %s;", (db_file,))
-    # Finalizar la conexión a la base de datos
+
+    # Finalize database connection
     conn.commit()
     cur.close()
     conn.close()
-    # Registrar el fin del scraping
-    logger.info("Scraping finalizado.")
+
+    # Log the end of scraping
+    logger.info("Scraping completed.")

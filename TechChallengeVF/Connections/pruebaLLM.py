@@ -1,38 +1,45 @@
 ﻿# -*- coding: utf-8 -*-
-# Script para generar selectores CSS o XPath usando un LLM
-# Importes y referencias
-import os # Para acceder a las variables de entorno
-from openai import OpenAI # Cliente de OpenAI para interactuar con el modelo LLM - Usar ChatGPT
-from dotenv import load_dotenv # Para cargar las variables de entorno desde un archivo .env 
-# Cargar las variables de entorno desde el archivo .env
+# Script to generate CSS or XPath selectors using an LLM
+
+# Imports and references
+import os  # To access environment variables
+from openai import OpenAI  # OpenAI client to interact with the LLM - using ChatGPT
+from dotenv import load_dotenv  # To load environment variables from a .env file
+
+# Load environment variables from the .env file
 load_dotenv()
-# Inicializar el cliente de OpenAI con la clave API
+
+# Initialize the OpenAI client with the API key
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-# Generador de selectores CSS o XPath usando un LLM
+
+# CSS or XPath selector generator using an LLM
 def get_selector(html_fragment: str, target_info: str, selector_type: str = "CSS") -> str:
-# Función para obtener un selector CSS o XPath usando un LLM
     """
-    Usa un LLM para sugerir un selector CSS o XPath dinámicamente
-    según el contenido HTML dado.
+    Uses an LLM to dynamically suggest a CSS or XPath selector
+    based on the provided HTML content.
     """
     selector_type = selector_type.upper()
-    prompt = f"Dado este HTML:\n\n{html_fragment}\n\n¿Qué selector {selector_type} usarías para extraer el/la {target_info}?"
-    # Llamada al modelo de OpenAI para generar el selector   
+    prompt = f"Given this HTML:\n\n{html_fragment}\n\nWhat {selector_type} selector would you use to extract the {target_info}?"
+
+    # Call the OpenAI model to generate the selector
     response = client.chat.completions.create(
-        model="gpt-4o", , # Modelo nuevo - ni tanto, ya está en 4.5, pero en pruebas - de ChatGPT de OpenAI a usar
+        model="gpt-4o",  # New model (currently in testing, 4.5 is more recent)
         messages=[
-            {"role": "system", "content": "Eres un experto en scraping y HTML. Responde solo con un selector válido."},
+            {"role": "system", "content": "You are an expert in web scraping and HTML. Respond only with a valid selector."},
             {"role": "user", "content": prompt}
         ]
     )
-    # Retornar el contenido de la respuesta del modelo y eliminar espacios en blanco al inicio y al final
+
+    # Return the model's response content, stripping leading/trailing whitespace
     return response.choices[0].message.content.strip()
-# Interactivo desde consola
+
+# Interactive console usage
 if __name__ == "__main__":
     print("LLM Selector Generator (CSS/XPath)")
-    html_fragment = input("Fragmento HTML:\n")
-    target_info = input("¿Qué querés extraer? (Ej. título, precio): ")
-    selector_type = input("Tipo de selector (CSS o XPath): ")
-    # Generar el selector usando el LLM
+    html_fragment = input("HTML fragment:\n")
+    target_info = input("What do you want to extract? (e.g., title, price): ")
+    selector_type = input("Selector type (CSS or XPath): ")
+    
+    # Generate the selector using the LLM
     selector = get_selector(html_fragment, target_info, selector_type)
-    print(f"\nSelector sugerido ({selector_type.upper()}):\n{selector}")
+    print(f"\nSuggested selector ({selector_type.upper()}):\n{selector}")

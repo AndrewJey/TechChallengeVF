@@ -3,8 +3,8 @@ import traceback
 from Connections.logger import logger
 import generate_results_json
 import generate_files_json  
-import pruebaLLM
-import llm_selector
+from Connections import pruebaLLM
+from Connections import llm_selector
 from scraper_static import scrape_static_site
 from TechChallengeVF.TechChallengeVF import scrape  # Real web scraping with Selenium
 

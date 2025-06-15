@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Connections\.env" />
-    <Content Include="docs\Arquitectura.md" />
+    <Content Include="docs\architecture.md" />
     <Content Include="docs\db_credentials.txt" />
     <Content Include="docs\requirements.txt" />
     <Content Include="docs\Selenium.txt" />

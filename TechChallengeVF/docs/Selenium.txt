@@ -1,3 +1,13 @@
-Justificación del uso de Selenium:
+Justification: Why Selenium? py -m pip install selenium python-dotenv openai psycopg2-binary apscheduler
 
-py -m pip install selenium python-dotenv openai psycopg2-binary apscheduler
+Selenium was used because:
+
+	• The Tienda Monge website heavily relies on JavaScript.
+
+	• It implements scrolling load and numbered paging, requiring dynamic interaction with the page.
+
+	• Selenium can interact most with the live DOM, unlike static parsers like Requests, BeautifulSoup or as Playwright.
+
+	• For local or static websites where JavaScript isn't involved, the lighter and faster combo: Requests-HTML + BeautifulSoup was used.
+
+	• I'm a more confident working with Selenium as I have more experience with it, because of testing roles in the past.

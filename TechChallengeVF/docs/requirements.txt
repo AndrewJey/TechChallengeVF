@@ -1,5 +1,19 @@
+# Web scraping y navegador automatizado
 selenium
-psycopg2-binary
-apscheduler
+webdriver-manager
 requests
+beautifulsoup4
+
+# Base de datos
+psycopg2-binary
+
+# Programación y tareas recurrentes
+apscheduler
 python-dotenv
+
+# OpenAI API client 
+openai
+azure-openai
+
+# Procesos en consola
+tqdm

@@ -1,6 +1,7 @@
-# TechChallengeVF
-Technical Challenge – Web Scraping &amp; Automation Analyst. Evaluate my ability to design and implement a dynamic scraping system.
-
+# 💻 TechChallengeVF
+**Technical Challenge – Web Scraping &amp; Automation Analyst.** 
+A project to evaluate my ability to design and implement a dynamic scraping system. A complete system for dynamic and static scraping, PostgreSQL storage, JSON generation, and AI-powered selector extraction via OpenAI LLMs.
+---
 ## 🛠 TechChallengeVF: Dynamic & Static Web Scraping with PostgreSQL Storage
 
 This project performs scraping of both a **local static website** and **dynamic websites** (like: Tienda Monge, WallMart, Mercado Libre, AliExpress, Plusvalia, Inmuebles24, so on...). It also uses Large Language Models (LLMs) to automatically suggest CSS/XPath selectors. All extracted information is stored in a PostgreSQL database, logging both products and downloaded files.
@@ -10,17 +11,22 @@ This project performs scraping of both a **local static website** and **dynamic 
 ```
 TechChallengeVF/
 │
-├── TechChallengeVF.py              # Dynamic scraper using Selenium (Monge)
-├── scheduler.py                    # Automated job scheduler (APScheduler)
-├── scraper_static.py               # Static HTML website scraper
+├── main.py                   # Full system runner (scraping + JSON + LLM)
+├── scheduler.py              # APScheduler for hourly automation
+├── TechChallengeVF.py        # Dynamic web scraper (Tienda Monge)
+├── scraper_static.py         # Static scraper for local website files
+├── generate_results_json.py  # Export products to results.json
+├── generate_files_json.py    # Export files to files.json
 ├── Connections/
-|	├── pruebaLLM.py                # LLM-based selector generation
-|	├── llm_selector.p              # AzureOpenAI alternative for selector generation
-│   ├── database.py                 # PostgreSQL connection and saving functions
-│   ├── logger.py                   # JSON-based logging
+│  ├── database.py            # PostgreSQL connection, saving functions
+│  ├── logger.py              # Structured JSON logging (scraper.log)
+│  ├── pruebaLLM.py           # Interactive LLM CSS/XPath selector generator
+│  └── llm_selector.py        # Azure-based LLM selector generator
 │
-└── docs/                           # Additional documentation
-	├── db_credentials.txt              # Database credentials
+├── docs/                     # Additional documentation
+│	└── db_credentials.txt     # Database credentials
+│   
+└── requirements.txt # Project dependencies
 ```
 
 ## ⚙️ Local Setup
@@ -31,20 +37,25 @@ TechChallengeVF/
    cd TechChallengeVF
    ```
 
-2. **Create and activate a virtual environment** (optional but recommended):
+2. **Create and activate a virtual environment**:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/macOS
-   .\venv\Scripts\activate   # Windows
+python -m venv env1
+.\env1\Scripts\activate    # Windows
+                        # or
+source env1/bin/activate   # Linux/macOS
    ```
 
 3. **Install dependencies**:
    ```bash
-   pip install -r requirements.txt
+  pip install -r requirements.txt
    ```
-
-4. **Configure database credentials**:
-   Create a `db_credentials.txt` file with 5 lines:
+4. **Create a .env file for your API key for the LLM**:
+   Create a `.env` file and include:
+   ```env
+  OPENAI_API_KEY=your_openai_key
+   ```
+5. **Configure database credentials**:
+   Create a `docs/db_credentials.txt` file with 5 lines structure:
    ```
    tienda
    your_user
@@ -53,44 +64,52 @@ TechChallengeVF/
    5432
    ```
 
-5. **Set environment variables for the LLM**:
-   Create a `.env` file and include:
-   ```
-   OPENAI_API_KEY=your_openai_key
-   ```
-
 ## 🚀 Usage
 
-- Run dynamic scraping: `python TechChallengeVF.py`
-- Run static scraping: `python scraper_static.py`
-- Run scheduler: `python scheduler.py`
-- Use LLM selector generator: `python pruebaLLM.py`
+- Run the entire system: `python main.py`
+- Run only the static scraper (localhost files): `python scraper_static.py`
+- Run with automated hourly scheduler: `python scheduler.py`
+- Use the LLM selector generator (interactive console): `python Connections/pruebaLLM.py`
+- Run only the dynamic scraper (Tienda Monge): `python TechChallengeVF.py`
 
 ## 📚 Why Selenium?
-
-Selenium is used instead, because:
-- The target website (Monge) relies heavily on JavaScript.
-- Scroll load and numbered pagination requires real-time interaction.
-- Selenium handles live DOM, which static tools can’t.
+Full reasoning available in Selenium.txt. But, Selenium is used instead, because:
+- The target website (Tienda Importadora Monge) relies and it's heavily dependent on JavaScript.
+- Content loads via scroll and dynamic numbered pagination that requires real-time interaction.
+- Selenium handles live DOM, which allows to interact with it, but static parsers tools can’t.
 - For purely static sites, `RequestsHTML + BeautifulSoup` is used for efficiency.
-- More experience using Selenium than others.
+- Got more experience using Selenium than others.
 
 # ✅ Architecture
 
 ### Overview
 
 ```
-+-------------+          +------------------+          +------------------+
-| Scraper     |   -->    |    PostgreSQL    |  -->     | Visualization /  |
-| (Selenium)  |          |  Products & Logs |          | Future Analysis  |
-+-------------+          +------------------+          +------------------+
++------------------+      +------------------+       +--------------------+      +------------------+
+| Dynamic & Static | ---> |    PostgreSQL    |  ---> | JSON Files for UI  | ---> | Visualization /  |
+| Scraping Modules |      |  Products & Logs |       | or Dashboards/API  |      | Future Analysis  |
++------------------+      +------------------+       +--------------------+      +------------------+
+                                       +----------------+
+                                       | LLM Selectors  |
+                                       | CSS/XPath (AI) |
+                                       +----------------+
+```
+### Tech Stack
 
-            +------------+
-            | LLM Select |
-            | CSS/XPath  |
-            +------------+
+• Python 3.10+
+• Selenium + WebDriver Manager
+• RequestsHTML + BeautifulSoup
+• PostgreSQL + psycopg2
+• Azure OpenAI / OpenAI GPT-4o
+• python-dotenv
+• Flask / Flask-CORS (for future API layer)
+• APScheduler
+• Structured JSON logging
+• Interactive console for selector testing
 ```
 
 - **Dynamic scraper** uses Selenium for JS-based websites.
 - **Static scraper** uses requests and BeautifulSoup.
 - **LLM selector** integrates OpenAI to generate CSS/XPath.
+- **Designed for modular expansion (add new scrapers, APIs, dashboards).
+- **Ready to be Dockerized or CI/CD integrated (e.g., GitHub Actions).                                                                                                                                                                    

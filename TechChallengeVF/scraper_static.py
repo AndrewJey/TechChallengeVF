@@ -20,15 +20,32 @@ def hash_file(content):
 def scrape_static_site():
     if not os.path.exists(DOWNLOAD_FOLDER):
         os.makedirs(DOWNLOAD_FOLDER)
-
+     # Create the database table if it does not exist
+    try:
+        conn = get_connection()
+        cur = conn.cursor()
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS downloaded_files (
+                id SERIAL PRIMARY KEY,
+                filename TEXT,
+                url TEXT,
+                sha256 TEXT,
+                download_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                last_seen TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+        """)
+        conn.commit()
+        cur.close()
+        conn.close()
+    # Exception handling for database table creation
+    except Exception as e:
+        logger.exception("Failed to create downloaded_files table")
     # Log the start of the scraping
     logger.info("Starting scraping from local site")
     response = requests.get(BASE_URL)
     soup = BeautifulSoup(response.content, "html.parser")
-
     # Dictionary to store found files and their hashes
     found_files = {}
-
     # Look for file links in the HTML
     files = soup.find_all("a", href=True)
     for file_link in files:
@@ -106,6 +123,5 @@ def scrape_static_site():
     conn.commit()
     cur.close()
     conn.close()
-
     # Log the end of scraping
     logger.info("Scraping completed.")

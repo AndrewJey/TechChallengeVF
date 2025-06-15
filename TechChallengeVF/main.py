@@ -6,7 +6,7 @@ import generate_files_json
 from Connections import pruebaLLM
 from Connections import llm_selector
 from scraper_static import scrape_static_site
-from TechChallengeVF.TechChallengeVF import scrape  # Real web scraping with Selenium
+#from TechChallengeVF import scrape  # Real web scraping with Selenium
 
 def run_scraping_full():
     logger.info("=== START: Full system execution ===")
@@ -14,7 +14,7 @@ def run_scraping_full():
     try:
         # 1. Real web scraping using Selenium
         logger.info("Starting scraping with Selenium from Tienda Monge...")
-        scrape()
+        #scrape()
         logger.info("Selenium scraping completed.")
 
         # 2. Scraping local files (if applicable)

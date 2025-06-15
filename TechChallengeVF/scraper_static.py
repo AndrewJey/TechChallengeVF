@@ -8,7 +8,8 @@ from Connections.logger import logger
 from datetime import datetime
 
 # Localhost configuration for the web
-BASE_URL = "http://localhost:8000/"
+#BASE_URL = "http://localhost:8000/"
+BASE_URL = "http://localhost:5500/"
 DOWNLOAD_FOLDER = "downloads"
 
 # Generate SHA-256 hash of file content

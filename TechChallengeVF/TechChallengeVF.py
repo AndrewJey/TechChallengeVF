@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from Connections.database import save_product
 from Connections.logger import logger
+from main import run_scraping_full
 import time
 # import sys
 import traceback  # For detailed exception and error handling
@@ -17,6 +18,7 @@ if __name__ == "__main__":
         print("Program started")
         # Continue
         input("Press any key to continue...") 
+        run_scraping_full()
         # Web scraping method
         def scrape():
             # Log scraping start

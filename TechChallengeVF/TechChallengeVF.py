@@ -1,6 +1,8 @@
+# Selenium hasta la madre
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 from TechChallengeVF.Connections.database import save_product
 from TechChallengeVF.Connections.logger import logger
 import time
@@ -11,7 +13,7 @@ def scrape():
     # Configurar el driver de Selenium para Chrome
     options = Options() # Configurar opciones de Chrome para el scraping
     options.add_argument("--headless") # Ejecutar Chrome en Segundo Plano (sin verse, "invisible")
-    driver = webdriver.Chrome(options=options) # Configurar el driver de Chrome
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options) # Instalar y Configurar el driver de Chrome    
     # Iniciar el driver de Chrome y scrollear por la p�gina de productos    
     try:
         # Acceder a la p�gina de productos de celulares y tablets de Tienda Importadora Monge

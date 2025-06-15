@@ -14,8 +14,6 @@ if __name__ == "__main__":
     try:
         # Program start
         print("Program started")
-        # Run scraping immediately
-        scrape()
         # Continue
         input("Press any key to continue...") 
         # Web scraping method

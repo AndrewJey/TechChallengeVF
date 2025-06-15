@@ -192,3 +192,4 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+/.vs/TechChallengeVF/FileContentIndex/cc8f1c5c-b4d0-49c4-bb75-ac5abb00fac4.vsidx

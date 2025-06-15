@@ -14,7 +14,7 @@ def run_scraping_full():
     try:
         # 1. Real web scraping using Selenium
         logger.info("Starting scraping with Selenium from Tienda Monge...")
-        scrape()
+        #scrape()
         logger.info("Selenium scraping completed.")
 
         # 2. Scraping local files (if applicable)

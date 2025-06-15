@@ -1,0 +1,1 @@
+Justificación del uso de Selenium:

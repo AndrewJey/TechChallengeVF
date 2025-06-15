@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scheduler.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\scheduler.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\TechChallengeVF.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "scheduler.py",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scheduler.py",
+              "RelativeDocumentMoniker": "TechChallengeVF\\scheduler.py",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\scheduler.py",
+              "RelativeToolTip": "TechChallengeVF\\scheduler.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-15T07:32:17.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "db_credentials.txt",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Documents\\db_credentials.txt",
               "RelativeDocumentMoniker": "TechChallengeVF\\Documents\\db_credentials.txt",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "database.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\database.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\database.py",
@@ -56,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "logger.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\logger.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\logger.py",
@@ -69,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TechChallengeVF.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\TechChallengeVF.py",
               "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py",
               "RelativeToolTip": "TechChallengeVF\\TechChallengeVF.py",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-06-15T04:52:43.375Z",
               "EditorCaption": ""

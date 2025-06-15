@@ -1,3 +1,5 @@
+# Importar librerías de "logging", para registrar logs y errores
+import logging
 # Importar librerías de JSON (para trabajar JSON's y conversiones) y SYS (para trabajar con OS y acceder la PC)
 import json
 import sys

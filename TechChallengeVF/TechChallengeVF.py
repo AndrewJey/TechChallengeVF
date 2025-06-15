@@ -12,21 +12,21 @@ def scrape():
     options = Options() # Configurar opciones de Chrome para el scraping
     options.add_argument("--headless") # Ejecutar Chrome en Segundo Plano (sin verse, "invisible")
     driver = webdriver.Chrome(options=options) # Configurar el driver de Chrome
-    # Iniciar el driver de Chrome y scrollear por la página de productos    
+    # Iniciar el driver de Chrome y scrollear por la pï¿½gina de productos    
     try:
-        # Acceder a la página de productos de celulares y tablets de Tienda Importadora Monge
+        # Acceder a la pï¿½gina de productos de celulares y tablets de Tienda Importadora Monge
         driver.get("https://www.tiendamonge.com/productos/celulares-y-tablets/celulares")
-        time.sleep(5) # Esperar a que la página cargue por 5 segundos
-        # Desplazar hacia abajo para cargar más productos
+        time.sleep(5) # Esperar a que la pï¿½gina cargue por 5 segundos
+        # Desplazar hacia abajo para cargar mï¿½s productos
         last_height = driver.execute_script("return document.body.scrollHeight")
-        while True: # Scrollear para llegar al fin de la página
+        while True: # Scrollear para llegar al fin de la pÃ¡gina
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(2) # Espera de carga de 2 segundos
             new_height = driver.execute_script("return document.body.scrollHeight")
             if new_height == last_height:
                 break
             last_height = new_height
-        # Encontrar los productos en la página
+        # Encontrar los productos en la pÃ¡gina
         products = driver.find_elements(By.CLASS_NAME, "product-card")
         for product in products:
             try:
@@ -36,7 +36,7 @@ def scrape():
                 save_product(title, price, image)
             except Exception as e:
                 logger.error(f"Error al procesar producto: {e}")
-    # Excepción en caso de errores en el scraping
+    # ExcepciÃ³n en caso de errores en el scraping
     except Exception as e:
         logger.exception("Error en el scraping")
     finally:

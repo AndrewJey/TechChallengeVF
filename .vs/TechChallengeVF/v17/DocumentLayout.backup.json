@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Documents\\Selenium.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\Documents\\Selenium.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\TechChallengeVF.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Documents\\Selenium.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|solutionrelative:TechChallengeVF\\Documents\\Selenium.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B9BEF5B-CFB6-4B06-9E38-B69A89B4C2F4}|TechChallengeVF\\TechChallengeVF.pyproj|D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\pruebaLLM.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -54,21 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".env",
-              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\.env",
-              "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\.env",
-              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\.env",
-              "RelativeToolTip": "TechChallengeVF\\Connections\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-15T07:47:16.103Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -84,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Selenium.txt",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Documents\\Selenium.txt",
               "RelativeDocumentMoniker": "TechChallengeVF\\Documents\\Selenium.txt",
@@ -188,15 +175,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TechChallengeVF.py",
               "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py",
               "RelativeDocumentMoniker": "TechChallengeVF\\TechChallengeVF.py",
               "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\TechChallengeVF.py",
               "RelativeToolTip": "TechChallengeVF\\TechChallengeVF.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-06-15T04:52:43.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\.env",
+              "RelativeDocumentMoniker": "TechChallengeVF\\Connections\\.env",
+              "ToolTip": "D:\\Proyectos\\AndrewJey\\TechChallengeVF\\TechChallengeVF\\Connections\\.env",
+              "RelativeToolTip": "TechChallengeVF\\Connections\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T07:47:16.103Z",
               "EditorCaption": ""
             },
             {

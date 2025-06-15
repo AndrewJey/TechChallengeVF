@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "Innovative Web Design Trends for 2023",
+    "category": "Web Design",
+    "description": "Explore the latest web design trends that are shaping the digital landscape in 2023. From minimalist interfaces to immersive 3D elements, discover how these trends can elevate your web projects.",
+    "date": "2023-11-10T08:30:00"
+  },
+  {
+    "id": 2,
+    "title": "Optimizing JavaScript Performance",
+    "category": "Development",
+    "description": "Learn essential techniques for optimizing JavaScript performance in modern web applications. This guide covers code splitting, lazy loading, and memory management strategies.",
+    "date": "2023-11-08T14:15:00"
+  },
+  {
+    "id": 3,
+    "title": "Introduction to Responsive Grid Layouts",
+    "category": "CSS",
+    "description": "A comprehensive introduction to creating responsive grid layouts using CSS Grid. Perfect for beginners looking to build flexible and responsive web designs.",
+    "date": "2023-11-05T10:45:00"
+  },
+  {
+    "id": 4,
+    "title": "User Experience Design Principles",
+    "category": "UX Design",
+    "description": "Discover the fundamental principles of user experience design that can help you create more intuitive and user-friendly interfaces for your web applications.",
+    "date": "2023-11-02T16:20:00"
+  },
+  {
+    "id": 5,
+    "title": "Getting Started with React Hooks",
+    "category": "React",
+    "description": "A beginner-friendly guide to understanding and implementing React Hooks in your projects. Learn how to use useState, useEffect, and custom hooks effectively.",
+    "date": "2023-10-30T09:10:00"
+  },
+  {
+    "id": 6,
+    "title": "Advanced CSS Animation Techniques",
+    "category": "CSS",
+    "description": "Take your CSS animations to the next level with advanced techniques including keyframes, transitions, and 3D transformations. Includes practical examples and code snippets.",
+    "date": "2023-10-28T11:30:00"
+  },
+  {
+    "id": 7,
+    "title": "Building RESTful APIs with Node.js",
+    "category": "Backend",
+    "description": "Learn how to design and implement RESTful APIs using Node.js and Express. This guide covers routing, middleware, authentication, and best practices for API development.",
+    "date": "2023-10-25T13:45:00"
+  },
+  {
+    "id": 8,
+    "title": "Introduction to Web Accessibility",
+    "category": "Accessibility",
+    "description": "Understand the importance of web accessibility and learn practical techniques to make your websites more accessible to users with disabilities. Covers WCAG guidelines and testing tools.",
+    "date": "2023-10-22T15:20:00"
+  },
+  {
+    "id": 9,
+    "title": "Modern CSS Frameworks Comparison",
+    "category": "CSS",
+    "description": "A detailed comparison of popular CSS frameworks including Bootstrap, Tailwind CSS, and Bulma. Analyze their features, performance, and use cases to choose the right one for your project.",
+    "date": "2023-10-20T10:15:00"
+  },
+  {
+    "id": 10,
+    "title": "Version Control with Git and GitHub",
+    "category": "Development Tools",
+    "description": "Master the essentials of version control using Git and GitHub. Learn branching strategies, pull requests, merge conflict resolution, and collaboration workflows.",
+    "date": "2023-10-18T14:30:00"
+  },
+  {
+    "id": 11,
+    "title": "Progressive Web Apps: A Complete Guide",
+    "category": "Web Development",
+    "description": "Everything you need to know about Progressive Web Apps (PWAs) and how they're changing the web. Learn about service workers, offline capabilities, and app-like experiences.",
+    "date": "2023-10-15T09:45:00"
+  },
+  {
+    "id": 12,
+    "title": "Mastering Flexbox Layout",
+    "category": "CSS",
+    "description": "A deep dive into CSS Flexbox layout, with practical examples and common use cases. Learn how to create complex layouts with this powerful CSS module.",
+    "date": "2023-10-12T11:20:00"
+  },
+  {
+    "id": 13,
+    "title": "JavaScript ES6+ Features You Should Know",
+    "category": "JavaScript",
+    "description": "Explore the most useful features introduced in ES6 and beyond, including arrow functions, destructuring, spread/rest operators, and template literals.",
+    "date": "2023-10-10T16:15:00"
+  },
+  {
+    "id": 14,
+    "title": "Web Performance Optimization Strategies",
+    "category": "Performance",
+    "description": "Comprehensive guide to optimizing web performance, covering image optimization, caching strategies, code minification, and measuring performance metrics.",
+    "date": "2023-10-08T13:30:00"
+  },
+  {
+    "id": 15,
+    "title": "Introduction to TypeScript for JavaScript Developers",
+    "category": "TypeScript",
+    "description": "Learn how TypeScript can enhance your JavaScript development with static typing, interfaces, and advanced type features. Includes migration strategies for existing projects.",
+    "date": "2023-10-05T10:45:00"
+  },
+  {
+    "id": 16,
+    "title": "Responsive Images for the Modern Web",
+    "category": "Web Design",
+    "description": "Best practices for implementing responsive images in your web projects. Learn about srcset, sizes, picture element, and modern image formats.",
+    "date": "2023-10-02T14:20:00"
+  },
+  {
+    "id": 17,
+    "title": "State Management in React Applications",
+    "category": "React",
+    "description": "Compare different state management approaches in React, from Context API to Redux and Recoil. Learn when to use each solution based on your application's needs.",
+    "date": "2023-09-30T09:15:00"
+  },
+  {
+    "id": 18,
+    "title": "Building Accessible Forms",
+    "category": "Accessibility",
+    "description": "A guide to creating accessible forms that work for all users. Covers proper labeling, error handling, keyboard navigation, and ARIA attributes.",
+    "date": "2023-09-28T11:40:00"
+  },
+  {
+    "id": 19,
+    "title": "CSS Grid vs Flexbox: When to Use Each",
+    "category": "CSS",
+    "description": "Understand the differences between CSS Grid and Flexbox, and learn when to use each layout method for optimal results in your web designs.",
+    "date": "2023-09-25T15:10:00"
+  },
+  {
+    "id": 20,
+    "title": "Introduction to WebAssembly",
+    "category": "Web Development",
+    "description": "Discover how WebAssembly is revolutionizing web performance. Learn about its use cases, limitations, and how to get started with WASM in your projects.",
+    "date": "2023-09-22T13:25:00"
+  },
+  {
+    "id": 21,
+    "title": "Modern Authentication Methods for Web Apps",
+    "category": "Security",
+    "description": "An overview of modern authentication methods including OAuth 2.0, JWT, and passwordless authentication. Learn how to implement secure authentication in your applications.",
+    "date": "2023-09-20T10:30:00"
+  },
+  {
+    "id": 22,
+    "title": "Debugging JavaScript: Advanced Techniques",
+    "category": "Development",
+    "description": "Master advanced debugging techniques for JavaScript applications. Learn how to use browser dev tools, logging strategies, and debugging frameworks effectively.",
+    "date": "2023-09-18T14:15:00"
+  },
+  {
+    "id": 23,
+    "title": "Creating Custom Web Components",
+    "category": "Web Development",
+    "description": "Learn how to build reusable custom elements using the Web Components standard. Includes shadow DOM, HTML templates, and best practices for component design.",
+    "date": "2023-09-15T09:50:00"
+  },
+  {
+    "id": 24,
+    "title": "Responsive Typography Techniques",
+    "category": "Web Design",
+    "description": "Implement responsive typography that looks great on all devices. Covers fluid type scales, variable fonts, and CSS techniques for better reading experiences.",
+    "date": "2023-09-12T11:35:00"
+  },
+  {
+    "id": 25,
+    "title": "GraphQL for RESTful API Developers",
+    "category": "API Development",
+    "description": "Transition from REST to GraphQL with this comprehensive guide. Learn about queries, mutations, schemas, and how to integrate GraphQL with your existing backend.",
+    "date": "2023-09-10T16:40:00"
+  }
+]

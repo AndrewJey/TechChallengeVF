@@ -1,0 +1,148 @@
+/* Main Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 15px 20px;
+}
+
+.card-title {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Calendar Styles */
+#calendar {
+    height: 600px;
+}
+
+.fc-event {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.fc-event-title {
+    font-weight: 500;
+}
+
+/* Results Styles */
+.result-card {
+    transition: transform 0.2s;
+    margin-bottom: 15px;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+}
+
+.result-card .card-body {
+    padding: 15px;
+}
+
+.result-card .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.result-card .card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.pagination .page-link {
+    color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Files Styles */
+.file-card {
+    transition: all 0.2s;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.file-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.file-name {
+    font-weight: 500;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+.file-type {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.file-size {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+/* Event Details Styles */
+#event-details, #modal-event-details {
+    padding: 15px;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event-time, .event-location {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.event-description {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #calendar {
+        height: 500px;
+    }
+    
+    .card-header {
+        padding: 10px 15px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Team Meeting",
+    "start": "2023-11-15T10:00:00",
+    "end": "2023-11-15T11:30:00",
+    "allDay": false,
+    "category": "meeting",
+    "description": "Weekly team meeting to discuss project progress and upcoming tasks. All team members are required to attend and be prepared to share updates on their assigned tasks.",
+    "location": "Conference Room A"
+  },
+  {
+    "id": 2,
+    "title": "Client Presentation",
+    "start": "2023-11-17T14:00:00",
+    "end": "2023-11-17T16:00:00",
+    "allDay": false,
+    "category": "important",
+    "description": "Presentation of the new product features to the client. Make sure all demos are working properly and prepare for Q&A session.",
+    "location": "Main Boardroom"
+  },
+  {
+    "id": 3,
+    "title": "Project Deadline",
+    "start": "2023-11-30",
+    "allDay": true,
+    "category": "deadline",
+    "description": "Final deadline for the current project phase. All deliverables must be completed and submitted by the end of the day.",
+    "location": "N/A"
+  },
+  {
+    "id": 4,
+    "title": "Company Holiday",
+    "start": "2023-11-23",
+    "end": "2023-11-24",
+    "allDay": true,
+    "category": "holiday",
+    "description": "Company-wide holiday. Office will be closed.",
+    "location": "N/A"
+  },
+  {
+    "id": 5,
+    "title": "Training Workshop",
+    "start": "2023-11-20T09:00:00",
+    "end": "2023-11-21T17:00:00",
+    "allDay": false,
+    "category": "workshop",
+    "description": "Two-day training workshop on new technologies and methodologies. Bring your laptop and note-taking materials.",
+    "location": "Training Center"
+  },
+  {
+    "id": 6,
+    "title": "Product Launch",
+    "start": "2023-12-05T13:00:00",
+    "end": "2023-12-05T18:00:00",
+    "allDay": false,
+    "category": "important",
+    "description": "Official launch of our new product. Marketing team will coordinate press releases and social media announcements.",
+    "location": "Main Auditorium"
+  },
+  {
+    "id": 7,
+    "title": "Code Review",
+    "start": "2023-11-16T15:00:00",
+    "end": "2023-11-16T16:30:00",
+    "allDay": false,
+    "category": "meeting",
+    "description": "Code review session for the new features. All developers should have their code ready for review.",
+    "location": "Dev Room"
+  },
+  {
+    "id": 8,
+    "title": "Annual Conference",
+    "start": "2023-12-10",
+    "end": "2023-12-12",
+    "allDay": true,
+    "category": "conference",
+    "description": "Annual industry conference. Several team members will be presenting papers and representing the company.",
+    "location": "Convention Center"
+  },
+  {
+    "id": 9,
+    "title": "Budget Planning",
+    "start": "2023-11-28T11:00:00",
+    "end": "2023-11-28T13:00:00",
+    "allDay": false,
+    "category": "meeting",
+    "description": "Meeting to plan the budget for the next quarter. Department heads should prepare their budget proposals.",
+    "location": "Finance Room"
+  },
+  {
+    "id": 10,
+    "title": "Team Building Event",
+    "start": "2023-12-15T13:00:00",
+    "end": "2023-12-15T18:00:00",
+    "allDay": false,
+    "category": "personal",
+    "description": "Team building activity to improve collaboration and morale. Casual dress code, lunch will be provided.",
+    "location": "City Park"
+  }
+]

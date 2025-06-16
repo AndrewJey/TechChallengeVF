@@ -1,0 +1,1516 @@
+WEBVTT
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/14-0
+00:00:06.362 --> 00:00:08.922
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Hello, my name is Andres,
+Josephine and Leandro.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/19-0
+00:00:08.922 --> 00:00:12.402
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I'm going to present my video defense of
+my code.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/39-0
+00:00:13.222 --> 00:00:20.417
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>In here I use solantex to basically
+create the information that goes outside</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/39-1
+00:00:20.417 --> 00:00:24.902
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>of the main code,
+and I also use Visual Studio.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/48-0
+00:00:26.362 --> 00:00:28.522
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>As a point of creation of the whole
+project.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/54-0
+00:00:30.162 --> 00:00:31.682
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>To work with the GitHub directly.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/65-0
+00:00:33.402 --> 00:00:40.042
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And I also work with visual code for the
+web that you guys provide.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/77-0
+00:00:42.392 --> 00:00:49.123
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The website project and I ended up
+working on the and I will test it on the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/77-1
+00:00:49.123 --> 00:00:49.832
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>PyCharm.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/97-0
+00:00:51.362 --> 00:00:57.450
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I also have this database that you may
+see I already dropped the table,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/97-1
+00:00:57.450 --> 00:01:01.762
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>so if we check for these tables they do
+not exist.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/101-0
+00:01:03.112 --> 00:01:05.192
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>They are completely empty.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/105-0
+00:01:06.802 --> 00:01:08.642
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So we refresh, there's no table.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/108-0
+00:01:09.742 --> 00:01:11.302
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And I have here my.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/116-0
+00:01:12.762 --> 00:01:16.522
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Coat and we will check basically how this
+work.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/126-0
+00:01:18.162 --> 00:01:21.682
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I had some hard time trying to get the
+information from the PDF.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/143-0
+00:01:23.762 --> 00:01:26.718
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But and I work mostly on late night and
+early morning.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/143-1
+00:01:26.718 --> 00:01:30.642
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I do have like someone that I could
+ask the information at that time.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/166-0
+00:01:32.282 --> 00:01:36.497
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Even when I'm doing the video a little
+bit later on on on Sunday,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/166-1
+00:01:36.497 --> 00:01:39.562
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I work mostly on Saturday and and early
+Sunday.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/168-0
+00:01:42.122 --> 00:01:42.682
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I'm gonna sleep.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/193-0
+00:01:45.752 --> 00:01:51.173
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I had a basic understood that they need
+to design and implement a scrapping</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/193-1
+00:01:51.173 --> 00:01:56.593
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>system that it's dynamic that all of
+files that detect changes and the runs</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/193-2
+00:01:56.593 --> 00:01:57.592
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>locally right.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/218-0
+00:01:57.632 --> 00:02:04.729
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And I'll way in the computer and also the
+DI that we scrap a real website where</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/218-1
+00:02:04.729 --> 00:02:10.672
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>that have origination right and also that
+we handle the files and.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/229-0
+00:02:11.522 --> 00:02:16.122
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>That it works with the changes that it
+have, all the good programming parts.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/244-0
+00:02:16.632 --> 00:02:22.472
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And we have Tre conscience and everything.
+And they're like, we lock everything so.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/250-0
+00:02:24.312 --> 00:02:26.592
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I use a Costa Rican website.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/270-0
+00:02:26.792 --> 00:02:32.875
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>That it's called in Puerto Rico and it's
+quite hard, this one 'cause it,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/270-1
+00:02:32.875 --> 00:02:37.959
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it's not consistent.
+So that makes it more challenging and I</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/270-2
+00:02:37.959 --> 00:02:38.792
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>like that.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/297-0
+00:02:38.792 --> 00:02:41.314
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So hey,
+I keep using these even when it was</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/297-1
+00:02:41.314 --> 00:02:44.066
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>harder,
+as you may see for example the classing</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/297-2
+00:02:44.066 --> 00:02:48.537
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>these cell phone app here and cell phones
+because it brings a little bit more</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/297-3
+00:02:48.537 --> 00:02:49.512
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>information here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/302-0
+00:02:50.242 --> 00:02:53.362
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It goes with the product.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/309-0
+00:02:53.952 --> 00:02:56.552
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Write product key manage product item.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/318-0
+00:02:57.962 --> 00:03:02.362
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So it it works with product things like
+Title, Center, product item.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/357-0
+00:03:03.792 --> 00:03:10.338
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But if we go down here and we check,
+these are the phone goes with resolve</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/357-1
+00:03:10.338 --> 00:03:16.535
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>content and resolve wrapper so it it
+never has like the same class for</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/357-2
+00:03:16.535 --> 00:03:20.550
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>everything.
+So that make it more interesting.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/357-3
+00:03:20.550 --> 00:03:25.962
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So each time it runs it runs and grab
+more information but I.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/361-0
+00:03:25.962 --> 00:03:28.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Couldn't make it all continuously.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/371-0
+00:03:29.162 --> 00:03:32.602
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Because I will need more time and I and
+the website is not helpful.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/394-0
+00:03:33.072 --> 00:03:38.395
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Even though with my code,
+if you go to the challenge OK in here</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/394-1
+00:03:38.395 --> 00:03:43.552
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>that I do this crap,
+you could replace this URL and then add.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/420-0
+00:03:43.992 --> 00:03:49.201
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Whatever class name do you want to get to
+her and it will capture it and it will,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/420-1
+00:03:49.201 --> 00:03:52.505
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>you know,
+save it in the database and everything so</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/420-2
+00:03:52.505 --> 00:03:54.792
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it works and it works with anything.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/444-0
+00:03:54.792 --> 00:03:57.494
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>You could change it and it will have no
+issues,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/444-1
+00:03:57.494 --> 00:04:02.166
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>but I want to do it with this one that is
+harder and I do it with selenium because</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/444-2
+00:04:02.166 --> 00:04:04.192
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it's the tool that I work most with.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/462-0
+00:04:04.192 --> 00:04:09.164
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I I am a little bit more knowledge
+with it and besides that website have a</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/462-1
+00:04:09.164 --> 00:04:10.312
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>lot of JavaScript.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/469-0
+00:04:11.162 --> 00:04:13.642
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Pagination so it it works better with
+that.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/471-0
+00:04:14.192 --> 00:04:14.312
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Umm.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/479-0
+00:04:16.182 --> 00:04:18.102
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And also I use headlights.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/481-0
+00:04:18.142 --> 00:04:18.662
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>You know.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/486-0
+00:04:20.762 --> 00:04:22.562
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Chrome so it it does.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/498-0
+00:04:22.562 --> 00:04:27.334
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It keeps pretty much everything on the
+console part instead of, you know,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/498-1
+00:04:27.334 --> 00:04:28.882
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>opening a whole website.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/510-0
+00:04:32.792 --> 00:04:37.218
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>In here I have everything,
+so I guess you guys check it when you</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/510-1
+00:04:37.218 --> 00:04:38.512
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>check my my guitar.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/515-0
+00:04:38.952 --> 00:04:40.272
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But my guitar piece.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/534-0
+00:04:42.482 --> 00:04:47.341
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>There I will I I guess we send directed
+we send the direct URL.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/534-1
+00:04:47.341 --> 00:04:50.682
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I have the read me that I tried to make
+it.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/546-0
+00:04:50.682 --> 00:04:54.917
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>You know a little bit more colorful and
+with order and all the information</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/546-1
+00:04:54.917 --> 00:04:55.482
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>requested.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/557-0
+00:04:58.812 --> 00:05:05.372
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And then we have the the project itself
+with all the information that is required.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/572-0
+00:05:06.962 --> 00:05:13.023
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And this is the website that you guys
+provide running on my local host which is</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/572-1
+00:05:13.023 --> 00:05:13.402
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>5500.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/576-0
+00:05:15.242 --> 00:05:15.962
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>With all the.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/581-0
+00:05:17.632 --> 00:05:18.712
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Documents so.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/583-0
+00:05:20.242 --> 00:05:20.802
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>In here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/592-0
+00:05:23.042 --> 00:05:27.482
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>We had the main which the main calls
+pretty much everything else.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/605-0
+00:05:29.002 --> 00:05:35.042
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And once the mail the main was one by one,
+it's called the scrapper.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/622-0
+00:05:35.042 --> 00:05:40.411
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And then it goes to the scrap with the
+static page which is the one that calls</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/622-1
+00:05:40.411 --> 00:05:42.042
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>for the for the website.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/650-0
+00:05:44.042 --> 00:05:48.658
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Provided and then we also have the
+information from the database and I have</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/650-1
+00:05:48.658 --> 00:05:52.242
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>also the logs and everything and I I try
+with the open AI.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/655-0
+00:05:53.632 --> 00:05:53.752
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Llm.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/664-0
+00:05:55.152 --> 00:05:59.672
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So there's all the information here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/666-0
+00:05:59.712 --> 00:06:02.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The domain does, but it's mostly.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/668-0
+00:06:04.562 --> 00:06:05.282
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>On.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/675-0
+00:06:06.812 --> 00:06:07.812
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>On the output right?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/683-0
+00:06:07.812 --> 00:06:11.815
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It's a console app,
+so it goes and it checks and it brings</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/683-1
+00:06:11.815 --> 00:06:13.172
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>all the information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/731-0
+00:06:14.642 --> 00:06:20.102
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It goes 1 by 1 checking right now this
+database that we saw before was empty.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/731-1
+00:06:20.102 --> 00:06:25.702
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So the first thing it's going to create
+is the information for the database and</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/731-2
+00:06:25.702 --> 00:06:31.372
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>then once it created it start trying to
+capture the information from the website</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/731-3
+00:06:31.372 --> 00:06:33.122
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>and it brings the inform.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/733-0
+00:06:33.122 --> 00:06:34.002
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Back.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/740-0
+00:06:35.472 --> 00:06:36.472
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>That's pretty much it.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/775-0
+00:06:36.472 --> 00:06:39.835
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I mean,
+if you don't see to happen anything</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/775-1
+00:06:39.835 --> 00:06:45.798
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>'cause it is running on the background
+and and it could work directly like on</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/775-2
+00:06:45.798 --> 00:06:51.072
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the PyCharm or or any Idi but if you run
+it directly on the console.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/777-0
+00:06:54.312 --> 00:06:55.432
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It will also.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/779-0
+00:06:56.192 --> 00:06:57.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It will also work.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/784-0
+00:07:03.242 --> 00:07:04.002
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>There we go.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/794-0
+00:07:04.282 --> 00:07:08.442
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I didn't want it to just close and this
+is it looking at the.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/801-0
+00:07:11.432 --> 00:07:14.232
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>On the local host and checking the
+information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/808-0
+00:07:16.512 --> 00:07:21.032
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I didn't want it to to it,
+to actually goes.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/814-0
+00:07:25.902 --> 00:07:27.262
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And ended by itself.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/821-0
+00:07:27.262 --> 00:07:29.182
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And you will see just, you know, a flash.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/832-0
+00:07:29.702 --> 00:07:34.548
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I I keep the press key.
+So it depends that you actually press the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/832-1
+00:07:34.548 --> 00:07:35.742
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>key to finish it.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/853-0
+00:07:37.402 --> 00:07:42.494
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But if you we come here to the database
+and then we select that it doesn't have</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/853-1
+00:07:42.494 --> 00:07:46.122
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>any brings the error that there's no
+relation, etcetera.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/856-0
+00:07:47.882 --> 00:07:48.642
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>If we check.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/878-0
+00:07:51.192 --> 00:07:57.926
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>You will see there are the cell phones,
+them and then we will see there's a well.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/878-1
+00:07:57.926 --> 00:08:00.472
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>There's nothing downloaded yet.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/897-0
+00:08:00.472 --> 00:08:04.552
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So that's basically why it's empty.
+Not because it doesn't worry just because</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/897-1
+00:08:04.552 --> 00:08:07.952
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it doesn't have anything.
+But before we saw there were no table.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/908-0
+00:08:07.952 --> 00:08:10.872
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Now it says it's just that it doesn't
+have anything downloaded.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/925-0
+00:08:13.432 --> 00:08:17.678
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>We come here and we refresh and there we
+go.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/925-1
+00:08:17.678 --> 00:08:22.112
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>We have a sequence and the ID and we have
+the.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/931-0
+00:08:24.272 --> 00:08:27.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Tables already created on the database.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/941-0
+00:08:32.292 --> 00:08:34.652
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I also create the scheduler.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/947-0
+00:08:35.052 --> 00:08:37.532
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The scheduler if you run it, it works.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/972-0
+00:08:37.532 --> 00:08:41.393
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But I mean,
+this is a shared video and if if you want</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/972-1
+00:08:41.393 --> 00:08:45.827
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>to to run this share,
+you need to wait for a whole hour it to</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/972-2
+00:08:45.827 --> 00:08:47.972
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>run again and again and again.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/990-0
+00:08:48.332 --> 00:08:54.205
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But it does run and work as you may see.
+He's listening and checking the Internet</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/990-1
+00:08:54.205 --> 00:08:55.852
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>and everything changes.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1000-0
+00:08:57.312 --> 00:09:01.552
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It blocks the information and it start
+doing the whole scape.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1002-0
+00:09:03.802 --> 00:09:04.042
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Scrape.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1027-0
+00:09:09.632 --> 00:09:14.117
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Describe the export is completed.
+So in an hour he will do it again.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1027-1
+00:09:14.117 --> 00:09:19.512
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I guess my video cannot wait for a whole
+hour so I'm trying to be fast as I could.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1036-0
+00:09:22.922 --> 00:09:25.482
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Let's see, there's the lock 'cause.
+It was required.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1039-0
+00:09:25.482 --> 00:09:26.482
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This is the logger, right?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1051-0
+00:09:26.482 --> 00:09:32.126
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The logger create the logs and I use the
+log to capture pretty much every single</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1051-1
+00:09:32.126 --> 00:09:32.962
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1066-0
+00:09:33.672 --> 00:09:37.774
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The file cannot be open because you've
+been using another process. OK,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1066-1
+00:09:37.774 --> 00:09:39.912
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>but I could check it here no problem.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1074-0
+00:09:42.712 --> 00:09:45.672
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So the log logs are the information
+provable.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1076-0
+00:09:46.952 --> 00:09:47.112
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Umm.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1079-0
+00:09:52.372 --> 00:09:53.932
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It brings the information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1101-0
+00:09:55.402 --> 00:10:00.250
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Of whatever is going on. If it's good,
+if it's grown, if everything's work,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1101-1
+00:10:00.250 --> 00:10:02.802
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>you see there's no credential from here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1103-0
+00:10:02.872 --> 00:10:04.432
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Here so it goes in check.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1110-0
+00:10:05.392 --> 00:10:07.992
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It works with pretty much.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1117-0
+00:10:07.992 --> 00:10:10.832
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Here's with information on the opening
+eye.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1121-0
+00:10:11.142 --> 00:10:12.902
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I so the log.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1124-0
+00:10:12.942 --> 00:10:15.422
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Basically it started creates a log.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1129-0
+00:10:15.462 --> 00:10:18.662
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This an error here that it goes with.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1132-0
+00:10:21.102 --> 00:10:23.102
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>With the selenium it seems.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1134-0
+00:10:24.552 --> 00:10:24.672
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1136-0
+00:10:26.062 --> 00:10:27.462
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So the error log.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1160-0
+00:10:27.662 --> 00:10:31.568
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>'Cause you may see it works.
+It tells when everything is going OK and</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1160-1
+00:10:31.568 --> 00:10:34.582
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it tells also when everything is not
+going that well.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1169-0
+00:10:35.502 --> 00:10:42.406
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Something I'm thinking now is it's hours
+I should definitely have put it hours but</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1169-1
+00:10:42.406 --> 00:10:42.822
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>well.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1189-0
+00:10:44.312 --> 00:10:47.074
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Anyways,
+I could do it later then and and then</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1189-1
+00:10:47.074 --> 00:10:50.952
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>when you guys check on on the GitHub you
+will see with the hours.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1195-0
+00:10:52.552 --> 00:10:53.312
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I also have.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1200-0
+00:10:53.312 --> 00:10:55.992
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Let's see if it allows me to do it from
+here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1202-0
+00:10:56.822 --> 00:10:56.982
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1223-0
+00:10:57.992 --> 00:11:03.604
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This is checked files that if if it
+brings you know the information from the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1223-1
+00:11:03.604 --> 00:11:07.832
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>cell phones it create this one here and
+put it available.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1241-0
+00:11:07.912 --> 00:11:11.444
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Also, it's adjacent,
+so you could use it like on the website</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1241-1
+00:11:11.444 --> 00:11:14.512
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>and if you download any file it will
+appear in here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1249-0
+00:11:16.312 --> 00:11:19.192
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This was my first Test trying to do
+opening eye.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1254-0
+00:11:19.232 --> 00:11:20.472
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It's a dynamic purge.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1263-0
+00:11:21.152 --> 00:11:24.632
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The the selector of CSS or expat?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1268-0
+00:11:24.992 --> 00:11:27.672
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It works theoretically.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1290-0
+00:11:27.992 --> 00:11:32.504
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I couldn't test it with my API because
+when I put it,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1290-1
+00:11:32.504 --> 00:11:39.272
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it seems that you need to pay to use the
+chatgbt API, so I couldn't use it, but.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1292-0
+00:11:41.112 --> 00:11:41.432
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>These words.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1294-0
+00:11:43.112 --> 00:11:43.232
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1302-0
+00:11:44.412 --> 00:11:46.932
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And it selects the information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1306-0
+00:11:47.492 --> 00:11:48.972
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I'm pretty confident at work.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1314-0
+00:11:48.972 --> 00:11:51.092
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I try with the one that you guys gave to
+me.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1322-0
+00:11:51.092 --> 00:11:54.612
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I just change it because the I in this
+way I keep it this more dynamically.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1349-0
+00:11:56.072 --> 00:12:03.213
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So if you if you do have paid that
+support with the secret key,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1349-1
+00:12:03.213 --> 00:12:08.792
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>you just put it on the on the environment,
+right?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1354-0
+00:12:10.352 --> 00:12:11.672
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>For the environmental.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1360-0
+00:12:13.402 --> 00:12:16.842
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Values and then it will self fill and
+will work.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1384-0
+00:12:18.352 --> 00:12:22.652
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I create this one with the one that
+the company provided.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1384-1
+00:12:22.652 --> 00:12:27.728
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I have here the API and I have,
+you know the whole endpoint and the and</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1384-2
+00:12:27.728 --> 00:12:29.632
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the key and this one works.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1391-0
+00:12:29.632 --> 00:12:31.872
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It's a little bit more codeborned.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1400-0
+00:12:31.952 --> 00:12:36.152
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>You know, I hard code most of it,
+but it's pretty much the same idea.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1409-0
+00:12:36.872 --> 00:12:42.720
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It comes and brings the idea of what it
+requires and what way it's gonna do the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1409-1
+00:12:42.720 --> 00:12:43.232
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>things.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1413-0
+00:12:44.462 --> 00:12:46.662
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Asking to shut TPT.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1423-0
+00:12:48.952 --> 00:12:52.338
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>What?
+What is the best option to do with the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1423-1
+00:12:52.338 --> 00:12:53.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>CSS and stuff?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1443-0
+00:12:53.832 --> 00:12:57.511
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This is my database.
+I didn't want to use environmental for</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1443-1
+00:12:57.511 --> 00:13:01.312
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the database because I think it's a
+little bit more exposure.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1455-0
+00:13:01.312 --> 00:13:08.730
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I had a folder here called Docs where
+I had a txt which is also omitted from</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1455-1
+00:13:08.730 --> 00:13:09.472
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the git.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1475-0
+00:13:11.062 --> 00:13:15.562
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>That you add your information from the
+database on a TV credentials and it</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1475-1
+00:13:15.562 --> 00:13:16.462
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>actually works.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1493-0
+00:13:16.582 --> 00:13:21.914
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I had requirements in selenium here for
+the reason I use selenium because I this</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1493-1
+00:13:21.914 --> 00:13:26.982
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>is where I play lays the dogs that I was
+working with all the documentation.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1501-0
+00:13:28.472 --> 00:13:32.192
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But the idea is to just keep it.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1520-0
+00:13:33.952 --> 00:13:39.105
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Where I could edit it and upload it to
+the to the GitHub and then when</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1520-1
+00:13:39.105 --> 00:13:44.112
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>everything was ready I moved them to
+whatever they belonged like DM.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1529-0
+00:13:44.382 --> 00:13:47.142
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Or the environmentals right?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1535-0
+00:13:47.142 --> 00:13:51.022
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Or the get, get ignore or to read me so.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1539-0
+00:13:51.982 --> 00:13:53.702
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I add them where they belong.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1545-0
+00:13:55.832 --> 00:13:58.592
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Well,
+requirements are easy to load from here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1553-0
+00:13:59.742 --> 00:14:02.342
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This is a web sample provided by the
+company.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1563-0
+00:14:03.752 --> 00:14:06.912
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Mainly the one that does everything.
+We had a static.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1579-0
+00:14:10.382 --> 00:14:17.878
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This is the the the principal or or the
+main scrapper and it it's this is more</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1579-1
+00:14:17.878 --> 00:14:18.542
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>direct.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1582-0
+00:14:18.782 --> 00:14:19.902
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And I have a more.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1594-0
+00:14:20.422 --> 00:14:25.022
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>21 for for the one on the website that
+you guys provide.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1599-0
+00:14:25.262 --> 00:14:31.502
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So it checks and download and everything
+and then in here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1602-0
+00:14:32.422 --> 00:14:33.462
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>We had.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1612-0
+00:14:36.232 --> 00:14:39.112
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>A well, this is a that works every hour.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1628-0
+00:14:40.872 --> 00:14:45.195
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And then I have a server 'cause I want to
+display some of the information I had on</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1628-1
+00:14:45.195 --> 00:14:45.872
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the database.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1656-0
+00:14:45.992 --> 00:14:50.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So if I come here to the database and I
+want to show something that I had on on</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1656-1
+00:14:50.392 --> 00:14:53.912
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>products on on the website that you guys
+created, but I didn't.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1662-0
+00:14:54.032 --> 00:14:56.152
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I didn't know, and I and I couldn't.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1676-0
+00:14:56.152 --> 00:15:01.239
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Actually I didn't know if I was allowed
+to change something on the on the visual</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1676-1
+00:15:01.239 --> 00:15:02.872
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>web project that you guys.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1683-0
+00:15:03.182 --> 00:15:05.982
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Provide so instead of actually changing
+something.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1685-0
+00:15:08.032 --> 00:15:08.072
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>A.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1701-0
+00:15:08.072 --> 00:15:14.699
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Create AAPI the works with the Jason
+files that I had up here and it basically</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1701-1
+00:15:14.699 --> 00:15:16.712
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>creates routes you know.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1720-0
+00:15:18.472 --> 00:15:25.682
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It goes to the URL and at A and at the
+Ure to actually display the information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1720-1
+00:15:25.682 --> 00:15:25.952
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1728-0
+00:15:27.632 --> 00:15:30.432
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It it basically goes and jumps inside on
+the same.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1739-0
+00:15:32.872 --> 00:15:37.952
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Local host and it works and reads the the
+website and then.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1756-0
+00:15:39.432 --> 00:15:45.432
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It replaced the information that is being
+shown with whatever URL I send.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1775-0
+00:15:45.512 --> 00:15:48.696
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It actually works,
+but you need to hide it on the same</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1775-1
+00:15:48.696 --> 00:15:52.632
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>project and you need to have the right
+information of the solution.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1782-0
+00:15:52.712 --> 00:15:54.912
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So it was, you know, something extra.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1798-0
+00:15:54.992 --> 00:15:58.142
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I had it there,
+but I I didn't want to to screw up</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1798-1
+00:15:58.142 --> 00:16:01.847
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>something. So at the end,
+even when it was kind of working,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1798-2
+00:16:01.847 --> 00:16:02.712
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I didn't want.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1800-0
+00:16:03.022 --> 00:16:03.502
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>2.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1836-0
+00:16:04.262 --> 00:16:09.597
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>To Ru my my thing so I I take it outside
+so it it will actually crop up.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1836-1
+00:16:09.597 --> 00:16:15.006
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It will actually take down everything
+here because if it's outside of the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1836-2
+00:16:15.006 --> 00:16:18.222
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>website project.
+But if the API is working.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1852-0
+00:16:18.222 --> 00:16:24.195
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So if you add it on the website project,
+it reads the whole the whole website</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1852-1
+00:16:24.195 --> 00:16:27.182
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>project and then it mimics the website.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1864-0
+00:16:27.182 --> 00:16:32.331
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But I could add the thing that I want
+through this API so it looks like the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1864-1
+00:16:32.331 --> 00:16:33.822
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>website but it is not.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1866-0
+00:16:34.822 --> 00:16:35.582
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Wishes.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1875-0
+00:16:37.222 --> 00:16:39.982
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It sounds interesting now that I said it
+loud.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1898-0
+00:16:41.512 --> 00:16:46.505
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And hear you as you see if you move down
+the API just can'takes everything back to</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1898-1
+00:16:46.505 --> 00:16:49.032
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>order because it's on a local host, right?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1930-0
+00:16:49.032 --> 00:16:54.272
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>If we had two different URLs it it should,
+it will not fail.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1930-1
+00:16:54.272 --> 00:17:00.971
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It will actually work together and we
+could have the same the Dominion and in</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1930-2
+00:17:00.971 --> 00:17:05.352
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>that Dominion just change the the end of
+the Yuri.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1951-0
+00:17:06.342 --> 00:17:12.107
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I have the generic results Jason file
+which is basically to check that all the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1951-1
+00:17:12.107 --> 00:17:17.142
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>things work and this is also the the file
+that I wanted to to check.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1976-0
+00:17:20.192 --> 00:17:24.855
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>To check not only to check the errors,
+but also to to upload the information to</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1976-1
+00:17:24.855 --> 00:17:28.935
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>to the website and if you download
+something from the website it will</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1976-2
+00:17:28.935 --> 00:17:30.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>capture and generate the.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1999-0
+00:17:31.702 --> 00:17:37.114
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The information I have here dogs which
+basically you re you required from here</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1999-1
+00:17:37.114 --> 00:17:40.744
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the requirements and create your own DV
+credentials.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/1999-2
+00:17:40.744 --> 00:17:43.142
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The data just for testing purposes.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2010-0
+00:17:43.542 --> 00:17:50.062
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I have the chat TPT connection,
+the logger that it logs the information.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2025-0
+00:17:51.462 --> 00:17:57.622
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And then I have a database connection
+that it works if you may see already.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2037-0
+00:17:59.032 --> 00:18:02.392
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>It's called, what else we're naming,
+so I don't want to take long.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2047-0
+00:18:02.392 --> 00:18:06.592
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I guess you guys will check the the work
+directly.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2058-0
+00:18:06.592 --> 00:18:10.561
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I tried to Add all the commentaries of
+everything I do,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2058-1
+00:18:10.561 --> 00:18:13.112
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>try to make it as clear as possible.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2073-0
+00:18:13.112 --> 00:18:17.695
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I know my logic is sometimes entangled
+and I create things that goes together</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2073-1
+00:18:17.695 --> 00:18:19.752
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>and that's how I started with that.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2114-0
+00:18:21.132 --> 00:18:27.261
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Take challenge project and then it moved
+to a scrapper that goes static because I</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2114-1
+00:18:27.261 --> 00:18:33.016
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>now have a dynamic static and then I
+start thinking what could I do more and</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2114-2
+00:18:33.016 --> 00:18:38.771
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>and then I had a scheduler and then I
+start creating something else like the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2114-3
+00:18:38.771 --> 00:18:39.892
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>API and so for.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2125-0
+00:18:39.892 --> 00:18:42.172
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Connecting everything I create a new main.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2128-0
+00:18:42.292 --> 00:18:43.452
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So at the very end.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2140-0
+00:18:44.662 --> 00:18:47.942
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>If I have more time,
+I keep adding stuff I was selling.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2178-0
+00:18:49.512 --> 00:18:56.888
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Earlier that on on linking that if I had
+more time I will even do the UML for for</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2178-1
+00:18:56.888 --> 00:19:00.936
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>the classes and I will also do the
+database,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2178-2
+00:19:00.936 --> 00:19:07.592
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>UML and the and the competence UML which
+will look better than the right.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2184-0
+00:19:10.672 --> 00:19:13.152
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But it's basically the idea that.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2200-0
+00:19:14.672 --> 00:19:18.752
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I keep adding stuff if you if you.
+If you love me, I keep adding stuff.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2203-0
+00:19:19.992 --> 00:19:21.872
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I I start thinking like what?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2217-0
+00:19:21.872 --> 00:19:26.752
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>What could I make this better or what
+could I do to make this even look better?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2227-0
+00:19:28.392 --> 00:19:30.952
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I also had that you may see on the
+project the the PDF.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2251-0
+00:19:33.352 --> 00:19:39.053
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I tried to take pretty much everything in
+here and and check it and go like check,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2251-1
+00:19:39.053 --> 00:19:42.694
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>check, check.
+I was willing to do the Azure function</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2251-2
+00:19:42.694 --> 00:19:43.312
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>which is.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2298-0
+00:19:43.662 --> 00:19:48.285
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Quite easy honestly,
+but I I mean I should functions.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2298-1
+00:19:48.285 --> 00:19:55.135
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I need to be paid and I'm using my my
+free account that come from my university</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2298-2
+00:19:55.135 --> 00:20:00.871
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>for my teaching classes,
+so I cannot spend more this month if this</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2298-3
+00:20:00.871 --> 00:20:05.152
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>interview was the next one I had,
+you know, save.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2312-0
+00:20:05.222 --> 00:20:09.945
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Money so I could use the the Azure
+function but I I have already spent the</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2312-1
+00:20:09.945 --> 00:20:12.968
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>money,
+the free money that I should provide for</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2312-2
+00:20:12.968 --> 00:20:14.102
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>teaching purposes.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2340-0
+00:20:15.602 --> 00:20:20.189
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I mean also using some of these
+recommendations up here will be easier,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2340-1
+00:20:20.189 --> 00:20:23.374
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>but as you may see that website was quite
+crappy,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2340-2
+00:20:23.374 --> 00:20:27.642
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>so that's what I like because it becomes
+more more hard challenge.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2352-0
+00:20:30.462 --> 00:20:32.622
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So yeah, I mean, I tried the bonus.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2361-0
+00:20:32.622 --> 00:20:35.782
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I tried the resilience with all the error
+handling.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2364-0
+00:20:35.902 --> 00:20:38.422
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>There's a big bunch of.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2368-0
+00:20:40.102 --> 00:20:41.782
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>There's a big bunch of.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2370-0
+00:20:43.092 --> 00:20:43.892
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Of.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2376-0
+00:20:47.282 --> 00:20:50.382
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Ah try catch, try catch everywhere.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2399-0
+00:20:50.992 --> 00:20:55.138
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So you will be seeing a a lot of them
+'cause I I mean it,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2399-1
+00:20:55.138 --> 00:20:58.712
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it's great for checking code every in
+everything.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2415-0
+00:20:58.712 --> 00:21:04.870
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So I had a try here and had a very thing
+and an inception as you go to the main</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2415-1
+00:21:04.870 --> 00:21:08.872
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>class the the old one.
+If you go to the main class.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2418-0
+00:21:10.382 --> 00:21:11.302
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>You will see.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2453-0
+00:21:13.172 --> 00:21:17.405
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>A lot of try catch in the code.
+Even try catch inside of the try catch so</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2453-1
+00:21:17.405 --> 00:21:21.981
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>it will bring you something else and then
+exceptions could finalization of what</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2453-2
+00:21:21.981 --> 00:21:26.214
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>whatever is working loggers the logs
+every single thing it does and I try</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2453-3
+00:21:26.214 --> 00:21:28.102
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>catch exception in the same name.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2460-0
+00:21:28.372 --> 00:21:32.332
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>That checks if everything is is being
+pressed and done.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2480-0
+00:21:34.142 --> 00:21:36.915
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>This is because there was originally the
+main,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2480-1
+00:21:36.915 --> 00:21:39.982
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>so if I screw up something I didn't want
+to add it.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2485-0
+00:21:39.982 --> 00:21:41.422
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>But this is a removable file right now.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2502-0
+00:21:42.372 --> 00:21:45.274
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>As you may see,
+the was originally the Big Mans and</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2502-1
+00:21:45.274 --> 00:21:46.892
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>everything was handling here.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2508-0
+00:21:46.892 --> 00:21:50.252
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Then I moved to my new main which is
+called Main.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2518-0
+00:21:51.902 --> 00:21:55.262
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>They've become the dynamic scropper and
+same here with the.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2530-0
+00:21:57.732 --> 00:22:00.892
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Chattanooga one that you could add
+yourself,</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2530-1
+00:22:00.892 --> 00:22:04.052
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>and this is the one provided by the
+company.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2532-0
+00:22:05.622 --> 00:22:05.742
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>And.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2538-0
+00:22:07.862 --> 00:22:08.902
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I think that's it.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2540-0
+00:22:08.902 --> 00:22:10.262
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I mean anything you do.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2544-0
+00:22:12.212 --> 00:22:13.732
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>He will actually create something.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2546-0
+00:22:15.652 --> 00:22:16.252
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>That.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2549-0
+00:22:17.692 --> 00:22:20.212
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Will be checked by.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2553-0
+00:22:21.822 --> 00:22:23.302
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>The component of.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2562-0
+00:22:25.062 --> 00:22:28.582
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Of the project and the project will see
+what is required.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2568-0
+00:22:30.482 --> 00:22:34.322
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>So do you have any questions or?</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2572-0
+00:22:35.052 --> 00:22:36.092
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Or anything.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2578-0
+00:22:36.412 --> 00:22:37.772
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>Feel free to contact me.</v>
+
+401ffde7-6b2c-4e8c-ab4d-9711a5fa7602/2582-0
+00:22:37.812 --> 00:22:40.652
+<v Andr&#233;s J. Jim&#233;nez Leandro (McAFamily)>I'm going to get some other thank you and
+goodbye.</v>

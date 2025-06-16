@@ -38,6 +38,7 @@
     <Folder Include="docs\" />
     <Folder Include="Connections\" />
     <Folder Include="data\" />
+    <Folder Include="docs\Video\" />
     <Folder Include="web_sample\" />
     <Folder Include="web_sample\css\" />
     <Folder Include="web_sample\data\" />
@@ -51,6 +52,8 @@
     <Content Include="docs\db_credentials.txt" />
     <Content Include="docs\requirements.txt" />
     <Content Include="docs\Selenium.txt" />
+    <Content Include="docs\Video\Video Andrés J. Jiménez Leandro-20250615_143053-Meeting Recording.mp4" />
+    <Content Include="docs\Video\Video Andrés J. Jiménez Leandro.vtt" />
     <Content Include="ReadMe.md" />
     <Content Include="scraper.log" />
     <Content Include="web_sample\css\styles.css" />

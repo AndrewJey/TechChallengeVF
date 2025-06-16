@@ -74,8 +74,7 @@ def scrape():
         do_scroll(driver)
         productos_en_pagina = extract_products(driver)
         for producto in productos_en_pagina:
-            save_product(producto) 
-
+            save_product(producto["title"], producto["price"], producto["image_url"])
         if not click_next_page(driver):
             break
 

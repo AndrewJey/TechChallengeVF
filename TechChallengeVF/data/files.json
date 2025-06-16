@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": 1,
+    "filename": "file_example_MP3_700KB.mp3",
+    "type": "MP3",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/11/file_example_MP3_700KB.mp3"
+  },
+  {
+    "id": 2,
+    "filename": "file_example_MP4_480_1_5MG.mp4",
+    "type": "MP4",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/04/file_example_MP4_480_1_5MG.mp4"
+  },
+  {
+    "id": 3,
+    "filename": "file_example_CSV_5000.csv",
+    "type": "CSV",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file_example_CSV_5000.csv"
+  },
+  {
+    "id": 4,
+    "filename": "iso_8859-1.txt",
+    "type": "TXT",
+    "size": 1024000,
+    "url": "https://www.w3.org/TR/PNG/iso_8859-1.txt"
+  },
+  {
+    "id": 5,
+    "filename": "system-3209577_1280.jpg",
+    "type": "JPG",
+    "size": 1024000,
+    "url": "https://cdn.pixabay.com/photo/2018/03/08/15/50/system-3209577_1280.jpg"
+  },
+  {
+    "id": 6,
+    "filename": "company-logo-transparent-png-19.png",
+    "type": "PNG",
+    "size": 1024000,
+    "url": "https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png"
+  },
+  {
+    "id": 7,
+    "filename": "file_example_XLSX_50.xlsx",
+    "type": "XLSX",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file_example_XLSX_50.xlsx"
+  },
+  {
+    "id": 8,
+    "filename": "dummy.pdf",
+    "type": "PDF",
+    "size": 1024000,
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+  },
+  {
+    "id": 9,
+    "filename": "file_example_PPT_250kB.ppt",
+    "type": "PPT",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/08/file_example_PPT_250kB.ppt"
+  },
+  {
+    "id": 10,
+    "filename": "file-sample_100kB.docx",
+    "type": "DOCX",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file-sample_100kB.docx"
+  },
+  {
+    "id": 11,
+    "filename": "file_example_XLSX_10.xlsx",
+    "type": "XLSX",
+    "size": 1024000,
+    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file_example_XLSX_10.xlsx"
+  },
+  {
+    "id": 12,
+    "filename": "c4611_sample_explain.pdf",
+    "type": "PDF",
+    "size": 1024000,
+    "url": "https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf"
+  }
+]

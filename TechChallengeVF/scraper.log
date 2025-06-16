@@ -1,0 +1,370 @@
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "message": "Could not load credentials from the .txt file", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "message": "Could not load credentials from the .txt file", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processinng product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processig product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "ERROR", "message": "Error processing product: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".result-title text-ellipsis\"}\n  (Session info: chrome=137.0.7151.104); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x0xec3783+63299]\n\tGetHandleVerifier [0x0xec37c4+63364]\n\t(No symbol) [0x0xcf1113]\n\t(No symbol) [0x0xd3987e]\n\t(No symbol) [0x0xd39c1b]\n\t(No symbol) [0x0xd2efb1]\n\t(No symbol) [0x0xd5e5c4]\n\t(No symbol) [0x0xd2eed4]\n\t(No symbol) [0x0xd5e7f4]\n\t(No symbol) [0x0xd7fa4a]\n\t(No symbol) [0x0xd5e376]\n\t(No symbol) [0x0xd2d6e0]\n\t(No symbol) [0x0xd2e544]\n\tGetHandleVerifier [0x0x111e073+2531379]\n\tGetHandleVerifier [0x0x1119372+2511666]\n\tGetHandleVerifier [0x0xee9efa+220858]\n\tGetHandleVerifier [0x0xeda548+156936]\n\tGetHandleVerifier [0x0xee0c7d+183357]\n\tGetHandleVerifier [0x0xecb6e8+95912]\n\tGetHandleVerifier [0x0xecb890+96336]\n\tGetHandleVerifier [0x0xeb666a+9770]\n\tBaseThreadInitThunk [0x0x74ab62c4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e708b9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x0x77e70884+1028]\n", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:11.197419", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:11.197419", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:11.197921", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:30.913297", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:30.913297", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:30.913297", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:31.052192", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:32.107712", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:32.107712", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:32.107712", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:32.247280", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:32.286298", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T14:59:33.513803", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:28.162808", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:28.176780", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:28.176861", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:52.715424", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:52.715545", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:52.715649", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T18:38:52.866638", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "timestamp": "2025-06-15T18:38:54.882807", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:39:58.082073", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:39:58.082222", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:39:58.082294", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:40:21.598931", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:40:21.599431", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:40:21.599823", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:40:21.664875", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "ERROR", "timestamp": "2025-06-15T19:40:23.680350", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:03.922905", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:03.923043", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:03.923113", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:23.259435", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:23.259774", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:23.259891", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:23.409628", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:24.446287", "message": "Starting HTML scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:25.454810", "message": "Fetching files from JSON API...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:27.381750", "message": "[NEW][JSON] c4611_sample_explain.pdf downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:28.518965", "message": "[NEW][JSON] file_example_XLSX_10.xlsx downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:29.583342", "message": "[NEW][JSON] file-sample_100kB.docx downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:30.594973", "message": "[NEW][JSON] file_example_PPT_250kB.ppt downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:30.982766", "message": "[NEW][JSON] dummy.pdf downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:32.075790", "message": "[NEW][JSON] file_example_XLSX_50.xlsx downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:33.629430", "message": "[NEW][JSON] company-logo-transparent-png-19.png downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:34.126540", "message": "[NEW][JSON] system-3209577_1280.jpg downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:34.615131", "message": "[NEW][JSON] iso_8859-1.txt downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:35.697935", "message": "[NEW][JSON] file_example_CSV_5000.csv downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:36.666333", "message": "[NEW][JSON] file_example_MP4_480_1_5MG.mp4 downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:37.630938", "message": "[NEW][JSON] file_example_MP3_700KB.mp3 downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:37.671224", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:37.671682", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:37.671785", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:37.709995", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:37.747855", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T19:42:38.996812", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:33.158162", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:33.158162", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:33.158162", "message": "Starting scraping from Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:52.462892", "message": "Scraping finished.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:52.463895", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:52.463895", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:52.501017", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:53.522220", "message": "Starting HTML scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:02:54.575115", "message": "Fetching files from JSON API...", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:02:57.259507", "message": "[CHANGED][JSON] file_example_XLSX_10.xlsx updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:02:58.247912", "message": "[CHANGED][JSON] file-sample_100kB.docx updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:02:59.355038", "message": "[CHANGED][JSON] file_example_PPT_250kB.ppt updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:03:00.675040", "message": "[CHANGED][JSON] file_example_XLSX_50.xlsx updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:03:02.737875", "message": "[CHANGED][JSON] system-3209577_1280.jpg updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:03:04.272414", "message": "[CHANGED][JSON] file_example_CSV_5000.csv updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:03:05.251818", "message": "[CHANGED][JSON] file_example_MP4_480_1_5MG.mp4 updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:03:06.283845", "message": "[CHANGED][JSON] file_example_MP3_700KB.mp3 updated (different hash)", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:03:06.323949", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:03:06.324952", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:03:06.325955", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:03:06.366567", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:03:06.509505", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:03:07.933526", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:12:03.690546", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:12:03.690546", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:12:03.691546", "message": "Starting scraping on Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "ERROR", "timestamp": "2025-06-15T21:12:16.964990", "message": "A critical error occurred during execution.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:14:52.284408", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:14:52.284911", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:14:52.284911", "message": "Starting scraping on Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:31.140452", "message": "Scraping complete.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:31.141922", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:31.142423", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:31.218652", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:32.234832", "message": "Starting HTML scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:33.244203", "message": "Fetching files from JSON API...", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:35.627833", "message": "[CHANGED][JSON] file_example_XLSX_10.xlsx updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:36.704791", "message": "[CHANGED][JSON] file-sample_100kB.docx updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:37.703352", "message": "[CHANGED][JSON] file_example_PPT_250kB.ppt updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:39.004199", "message": "[CHANGED][JSON] file_example_XLSX_50.xlsx updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:40.978092", "message": "[CHANGED][JSON] system-3209577_1280.jpg updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:42.447148", "message": "[CHANGED][JSON] file_example_CSV_5000.csv updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:43.453161", "message": "[CHANGED][JSON] file_example_MP4_480_1_5MG.mp4 updated (different hash)", "name": "monge_logger"}
+{"level": "WARNING", "timestamp": "2025-06-15T21:16:44.540683", "message": "[CHANGED][JSON] file_example_MP3_700KB.mp3 updated (different hash)", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:44.584826", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:44.585803", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:44.586803", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:44.633935", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:44.789171", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-15T21:16:47.208026", "message": "=== END: Full system execution ===", "name": "monge_logger"}

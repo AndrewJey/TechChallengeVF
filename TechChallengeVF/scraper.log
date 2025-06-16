@@ -368,3 +368,30 @@
 {"level": "INFO", "timestamp": "2025-06-15T21:16:44.633935", "message": "Generating files.json from database...", "name": "monge_logger"}
 {"level": "INFO", "timestamp": "2025-06-15T21:16:44.789171", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
 {"level": "INFO", "timestamp": "2025-06-15T21:16:47.208026", "message": "=== END: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:55:41.632462", "message": "=== START: Full system execution ===", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:55:41.632697", "message": "Starting scraping with Selenium from Tienda Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:55:41.632776", "message": "Starting scraping on Tienda Importadora Monge...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:31.067352", "message": "Scraping complete.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:31.067550", "message": "Selenium scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:31.067662", "message": "Starting scraping of static files (localhost)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:31.280101", "message": "Starting scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:32.343861", "message": "Starting HTML scraping from local site", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:33.355858", "message": "Fetching files from JSON API...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:34.773796", "message": "[NEW][JSON] c4611_sample_explain.pdf downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:35.993148", "message": "[NEW][JSON] file_example_XLSX_10.xlsx downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:37.061711", "message": "[NEW][JSON] file-sample_100kB.docx downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:38.146753", "message": "[NEW][JSON] file_example_PPT_250kB.ppt downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:38.455938", "message": "[NEW][JSON] dummy.pdf downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:39.484013", "message": "[NEW][JSON] file_example_XLSX_50.xlsx downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:40.887489", "message": "[NEW][JSON] company-logo-transparent-png-19.png downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:41.272222", "message": "[NEW][JSON] system-3209577_1280.jpg downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:41.735399", "message": "[NEW][JSON] iso_8859-1.txt downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:42.845062", "message": "[NEW][JSON] file_example_CSV_5000.csv downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:43.940377", "message": "[NEW][JSON] file_example_MP4_480_1_5MG.mp4 downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:44.942542", "message": "[NEW][JSON] file_example_MP3_700KB.mp3 downloaded from JSON", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:45.087173", "message": "Scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:45.087553", "message": "Static file scraping completed.", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:45.087623", "message": "Generating results.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:45.162571", "message": "Generating files.json from database...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:45.209931", "message": "Testing LLM selector generation (OpenAI)...", "name": "monge_logger"}
+{"level": "INFO", "timestamp": "2025-06-16T07:57:46.545909", "message": "=== END: Full system execution ===", "name": "monge_logger"}

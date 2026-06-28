@@ -1,11 +1,14 @@
 # VoiceFlip Technical Challenge — Web Scraping & Automation
 
+> This is the application‑level readme. It mirrors the repo‑root
+> [`../README.md`](../README.md) (the canonical copy); both are kept in sync.
+
 A dynamic scraping system that extracts structured data from a real public
 website, downloads files from a locally‑served static site, persists everything
 in **PostgreSQL**, **detects changes** (new / modified / deleted records and
 files), runs **hourly**, and emits **structured JSON logs**.
 
-> **TL;DR — prove it works in one command** (after [setup](#-setup)):
+> **TL;DR — prove it works in one command** (after [setup](#-setup-local-without-docker)):
 > ```bash
 > cd TechChallengeVF
 > python demo_change_detection.py
@@ -55,7 +58,7 @@ Plain‑text view:
         main.py orchestrates · scheduler.py runs it hourly · logger.py = JSON logs
 ```
 
-See [`TechChallengeVF/docs/architecture.md`](TechChallengeVF/docs/architecture.md) for detail.
+See [`docs/architecture.md`](docs/architecture.md) for detail.
 
 ---
 
@@ -85,9 +88,10 @@ See [`TechChallengeVF/docs/architecture.md`](TechChallengeVF/docs/architecture.m
 
 ```
 TechChallengeVF/                  (repo root)
-├── README.md                     # this file (single source of truth)
+├── README.md                     # canonical readme
 ├── requirements.txt              # pinned dependencies
 └── TechChallengeVF/              # application
+    ├── ReadMe.md                 # this file (mirror of ../README.md)
     ├── main.py                   # full pipeline orchestrator (resilient)
     ├── scheduler.py              # APScheduler hourly automation
     ├── scraper_dynamic.py        # Selenium scraper (real site) + E1/E2/E3
@@ -158,7 +162,7 @@ psql -U postgres -c "CREATE DATABASE tienda;"
 ### 3. Configure credentials (either option works)
 
 **Option A — credentials file** (what the challenge asks for). Create
-`TechChallengeVF/docs/db_credentials.txt` from the template, 5 lines:
+`docs/db_credentials.txt` from the template, 5 lines:
 ```
 tienda
 postgres
@@ -168,7 +172,7 @@ localhost
 ```
 
 **Option B — environment variables** (take precedence). Copy
-`TechChallengeVF/.env.example` to `TechChallengeVF/.env` and fill it in.
+`.env.example` to `.env` and fill it in.
 
 ### Environment variables
 
@@ -290,4 +294,4 @@ to enable it; without a key it degrades gracefully (logs a warning, returns "").
 The target site renders products client‑side (Algolia/Magento) behind infinite
 scroll + numbered pagination, which needs a real browser driving the live DOM.
 For the purely static local site, `requests` + BeautifulSoup is used instead.
-Full reasoning in [`TechChallengeVF/docs/Selenium.txt`](TechChallengeVF/docs/Selenium.txt).
+Full reasoning in [`docs/Selenium.txt`](docs/Selenium.txt).

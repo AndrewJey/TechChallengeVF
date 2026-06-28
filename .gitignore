@@ -154,6 +154,10 @@ Icon?
 *.sqlite
 *.sqlite3
 
+# Generated DB exports (regenerated on every run; not the dashboard's web_sample/data)
+/TechChallengeVF/data/results.json
+/TechChallengeVF/data/files.json
+
 # Media / archives (project-specific)
 TechChallengeVF.zip
 docs/Video/*.mp4

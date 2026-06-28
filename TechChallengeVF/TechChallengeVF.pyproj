@@ -22,15 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Connections\config.py" />
     <Compile Include="Connections\database.py" />
     <Compile Include="Connections\llm_selector.py" />
     <Compile Include="Connections\logger.py" />
     <Compile Include="Connections\pruebaLLM.py" />
+    <Compile Include="Connections\__init__.py" />
+    <Compile Include="demo_change_detection.py" />
     <Compile Include="generate_files_json.py" />
     <Compile Include="generate_results_json.py" />
     <Compile Include="json_api_server.py" />
     <Compile Include="main.py" />
     <Compile Include="scheduler.py" />
+    <Compile Include="scraper_dynamic.py" />
     <Compile Include="scraper_static.py" />
     <Compile Include="TechChallengeVF.py" />
   </ItemGroup>
@@ -42,21 +46,35 @@
     <Folder Include="web_sample\" />
     <Folder Include="web_sample\css\" />
     <Folder Include="web_sample\data\" />
+    <Folder Include="web_sample\files\" />
     <Folder Include="web_sample\js\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connections\.env" />
+    <Content Include=".dockerignore" />
+    <Content Include=".env" />
+    <Content Include=".gitignore" />
+    <Content Include="data\files.json" />
+    <Content Include="data\results.json" />
+    <Content Include="docker-compose.yml" />
+    <Content Include="Dockerfile" />
     <Content Include="docs\architecture.md" />
     <Content Include="docs\db_credentials.txt" />
-    <Content Include="docs\requirements.txt" />
+    <Content Include="docs\db_credentials.txt.example" />
     <Content Include="docs\Selenium.txt" />
+    <Content Include="docs\VF Technical Challenge - Web Scraping.pdf" />
     <Content Include="docs\Video\Video Andrés J. Jiménez Leandro-20250615_143053-Meeting Recording.mp4" />
     <Content Include="docs\Video\Video Andrés J. Jiménez Leandro.vtt" />
     <Content Include="ReadMe.md" />
+    <Content Include="requirements.txt" />
     <Content Include="scraper.log" />
     <Content Include="web_sample\css\styles.css" />
     <Content Include="web_sample\data\events.json" />
     <Content Include="web_sample\data\files.json" />
+    <Content Include="web_sample\files\Company_Logo.png" />
+    <Content Include="web_sample\files\Meeting_Minutes.md" />
+    <Content Include="web_sample\files\Project_Proposal.pdf" />
+    <Content Include="web_sample\files\README.txt" />
+    <Content Include="web_sample\files\Sample_Data.csv" />
     <Content Include="web_sample\index.html" />
     <Content Include="web_sample\js\calendar.js" />
     <Content Include="web_sample\js\files.js" />

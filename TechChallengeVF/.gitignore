@@ -1,0 +1,212 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Pipenv / Poetry / PDM
+Pipfile.lock
+poetry.lock
+# pdm.lock (uncomment if you want to ignore it)
+#pdm.lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+env1/
+env2/
+env3/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains
+/.idea/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.slnx.sqlite
+
+# Visual Studio - specific workspace folders (project-specific)
+/.vs/TechChallengeVF/FileContentIndex/
+/.vs/TechChallengeVF/v17/
+/TechChallengeVF/Documents/db_credentials.txt
+/TechChallengeVF/docs/db_credentials.txt
+/TechChallengeVF/docs/Video/
+
+# Older Visual Studio artifacts
+/.vs/TechChallengeVF/FileContentIndex/cc8f1c5c-b4d0-49c4-bb75-ac5abb00fac4.vsidx
+/.vs/TechChallengeVF/FileContentIndex/f79a295f-0786-4d95-952c-9562d4174a2c.vsidx
+/.vs/TechChallengeVF/v17/.suo
+/.vs/TechChallengeVF/v17/DocumentLayout.backup.json
+/.vs/TechChallengeVF/v17/DocumentLayout.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Media / archives (project-specific)
+TechChallengeVF.zip
+docs/Video/*.mp4
+/TechChallengeVF/docs/Video/Video Andrés J. Jiménez Leandro-20250615_143053-Meeting Recording.mp4
+
+# Build / packaging files
+*.manifest
+*.spec
+
+# Static analyzers / linters / formatters
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyPI configuration
+.pypirc
+
+# Cursor editor
+.cursorignore
+.cursorindexingignore
+
+# Docker
+docker-compose.override.yml
+.env.docker
+
+# Node (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*.lock
+
+# Keep examples or sample env files in repo
+!env.example
+!Pipfile
+!pyproject.toml
+!requirements.txt
+/.vs/VSWorkspaceState.json
+/.vs/
+/.vs
+.vs/
+.vs
+/.vs/TechChallengeVF/copilot-chat/9ab5bf41/sessions/10dbf342-932c-4b8e-ad22-2e134c0ebb87
+/.vs/TechChallengeVF/v17/.wsuo
+/.vs/TechChallengeVF/v17/fileList.bin

@@ -1,0 +1,21 @@
+# --- Web scraping ---
+selenium==4.27.1            # dynamic (JS) site scraping
+webdriver-manager==4.0.2   # auto-manages ChromeDriver
+requests==2.32.3           # static file downloads
+beautifulsoup4==4.12.3     # HTML parsing
+
+# --- Database ---
+psycopg2-binary==2.9.10    # PostgreSQL driver
+
+# --- Automation ---
+apscheduler==3.10.4        # hourly scheduling
+
+# --- Configuration ---
+python-dotenv==1.0.1       # load .env
+
+# --- Bonus: LLM selector generation (Azure OpenAI) ---
+openai==1.59.6
+
+# --- Optional JSON API for the dashboard ---
+flask==3.1.0
+flask-cors==5.0.0

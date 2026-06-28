@@ -1,0 +1,16 @@
+.git/
+.gitignore
+.venv/
+TechChallengeVF/env1/
+TechChallengeVF/env2/
+TechChallengeVF/env3/
+**/__pycache__/
+*.pyc
+*.log
+TechChallengeVF/downloads/
+TechChallengeVF/.env
+.vs/
+.idea/
+# Exclude heavy docs (NOT the web_sample/files fixtures the demo needs).
+TechChallengeVF/docs/Video/
+TechChallengeVF/docs/*.pdf

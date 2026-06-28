@@ -113,7 +113,26 @@ TechChallengeVF/                  (repo root)
 
 ---
 
-## 🔧 Setup
+## 🐳 Run with Docker (no local Python/Postgres needed)
+
+The whole stack — PostgreSQL **and** the app (with Chromium for Selenium) — runs
+in containers. From the repo root:
+
+```bash
+docker compose build
+docker compose run --rm app                  # runs the E1–E5 demo (default)
+docker compose run --rm app python main.py   # full pipeline
+docker compose up scheduler                  # hourly automation (profile: automation)
+```
+
+The `db` service is Postgres 16 (db `tienda`, user/pass `postgres`/`postgres`),
+exposed on host port **5544** so it never collides with a local Postgres on
+5432/5433. The app connects to it automatically via `PGHOST=db`. Expected demo
+output: `ALL 11 CHECKS PASSED ✓`.
+
+---
+
+## 🔧 Setup (local, without Docker)
 
 ### Prerequisites
 - **Python 3.9+** (developed/verified on 3.13)

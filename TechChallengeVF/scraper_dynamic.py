@@ -12,10 +12,12 @@ Why Selenium instead of Scrapy + Playwright: the target site renders products
 client-side via JavaScript (Algolia/Magento) behind scroll + numbered paging,
 which needs a real browser driving the live DOM. See docs/Selenium.txt.
 """
+import os
 from time import sleep
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -110,11 +112,20 @@ def scrape():
     options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    # In Docker the Chromium binary / driver are installed via apt; honor their
+    # paths if provided (CHROME_BIN / CHROMEDRIVER_PATH). On the host, Selenium
+    # Manager resolves the driver automatically.
+    chrome_bin = os.getenv("CHROME_BIN")
+    if chrome_bin:
+        options.binary_location = chrome_bin
+    driver_path = os.getenv("CHROMEDRIVER_PATH")
+    service = Service(driver_path) if driver_path else None
 
     driver = None
     all_products = []
     try:
-        driver = webdriver.Chrome(options=options)
+        driver = webdriver.Chrome(service=service, options=options)
         driver.get(DYNAMIC_TARGET_URL)
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.TAG_NAME, "body"))

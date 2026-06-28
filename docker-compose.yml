@@ -1,0 +1,59 @@
+# Containerized stack: PostgreSQL + the scraping app.
+#
+#   docker compose build
+#   docker compose run --rm app          # runs the E1–E5 demo (default CMD)
+#   docker compose run --rm app python main.py        # full pipeline
+#   docker compose up scheduler          # hourly automation
+#
+# Postgres is exposed on host port 5544 so it never collides with a local
+# PostgreSQL on 5432/5433.
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: tienda
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5544:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d tienda"]
+      interval: 3s
+      timeout: 3s
+      retries: 15
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PGHOST: db
+      PGPORT: "5432"
+      PGDATABASE: tienda
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      STATIC_BASE_URL: http://localhost:8000/
+    # CMD from the Dockerfile (the demo) runs by default.
+
+  # Optional: hourly automation as a long-running service.
+  scheduler:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PGHOST: db
+      PGPORT: "5432"
+      PGDATABASE: tienda
+      PGUSER: postgres
+      PGPASSWORD: postgres
+    command: ["python", "scheduler.py"]
+    restart: unless-stopped
+    profiles: ["automation"]
+
+volumes:
+  pgdata:

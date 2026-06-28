@@ -100,9 +100,13 @@ celerybeat.pid
 # Virtual environments
 .env
 .env.*
-.venv
+!.env.example
+.venv/
 venv/
 env/
+env1/
+env2/
+env3/
 ENV/
 env.bak/
 venv.bak/

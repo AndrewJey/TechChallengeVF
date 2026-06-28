@@ -1,170 +1,203 @@
 # -*- coding: utf-8 -*-
-# Scraper for a static local website
-import requests, hashlib, os
+"""
+Static-site file scraper + file-level change detection.
+
+Serves the provided static HTML site locally (python -m http.server) and:
+  * downloads every catalogued file into DOWNLOAD_DIR,
+  * tracks each file's SHA-256 hash in PostgreSQL,
+  * E4: when a file's content changes (hash differs) -> replace it + bump version,
+  * E5: when a file disappears from the source -> delete it locally + remove the row.
+
+Safety: the E5 deletion sweep only runs when the file catalogue was fetched
+successfully, and a file is only ever considered "removed" if it was reachable
+this run. A transient network error therefore can never wipe local files / rows.
+"""
+import hashlib
+import os
+
+import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from Connections.database import get_connection, save_file_data
+
+from Connections.config import DOWNLOAD_DIR, STATIC_BASE_URL
+from Connections.database import get_connection, init_db
 from Connections.logger import logger
-from datetime import datetime
-# Localhost configuration for the web
-#BASE_URL = "http://localhost:8000/"
-BASE_URL = "http://localhost:5500/"
-DOWNLOAD_FOLDER = "downloads"
-# Generate SHA-256 hash of file content
-def hash_file(content):
+
+REQUEST_TIMEOUT = 15  # seconds
+FILE_EXTENSIONS = (".pdf", ".jpg", ".jpeg", ".png", ".docx", ".txt", ".csv", ".md", ".xlsx")
+
+
+def hash_bytes(content):
+    """SHA-256 of raw file bytes."""
     return hashlib.sha256(content).hexdigest()
-# Main function to scrape a static site
-def scrape_static_site():
-    if not os.path.exists(DOWNLOAD_FOLDER):
-        os.makedirs(DOWNLOAD_FOLDER)
-    # Create the database table if it does not exist
+
+
+def _fetch(url):
+    """GET a URL with a timeout; return bytes on HTTP 200, else None (logged)."""
     try:
-        conn = get_connection()
-        cur = conn.cursor()
-        cur.execute("""
-            CREATE TABLE IF NOT EXISTS downloaded_files (
-                id SERIAL PRIMARY KEY,
-                filename TEXT,
-                url TEXT,
-                sha256 TEXT,
-                download_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                last_seen TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                );
-            """)
-        conn.commit()
-        cur.close()
-        conn.close()
-    # Exception handling for database table creation
-    except Exception as e:
-        logger.exception("Failed to create downloaded_files table")
-    # Log the start of the scraping
-    logger.info("Starting scraping from local site")
-    response = requests.get(BASE_URL)
-    soup = BeautifulSoup(response.content, "html.parser")
-    # Dictionary to store found files and their hashes
-    found_files = {} # Dictionary to store found files and their hashes
-    # Scrape HTML static links
+        resp = requests.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code == 200:
+            return resp.content
+        logger.warning(f"[SKIP] {url} returned HTTP {resp.status_code}")
+        return None
+    except requests.RequestException as exc:
+        logger.warning(f"[SKIP] could not fetch {url}: {exc}")
+        return None
+
+
+def _process_file(conn, filename, full_url, found_files):
+    """
+    Download one file and apply NEW / CHANGED (E4) detection.
+
+    Returns True if the file was reachable this run (so it counts as "seen"),
+    False if the fetch failed (so it is NOT treated as removed by the sweep).
+    """
+    content = _fetch(full_url)
+    if content is None:
+        return False  # unreachable -> do NOT mark as seen
+
+    sha256 = hash_bytes(content)
+    found_files.add(filename)
+    local_path = os.path.join(DOWNLOAD_DIR, filename)
+
+    cur = conn.cursor()
+    cur.execute("SELECT sha256, version FROM downloaded_files WHERE filename = %s;", (filename,))
+    row = cur.fetchone()
+
+    if row is None:
+        with open(local_path, "wb") as f:
+            f.write(content)
+        cur.execute(
+            "INSERT INTO downloaded_files (filename, url, sha256, version) "
+            "VALUES (%s, %s, %s, 1);",
+            (filename, full_url, sha256),
+        )
+        cur.execute(
+            "INSERT INTO file_versions (filename, sha256, version) VALUES (%s, %s, 1);",
+            (filename, sha256),
+        )
+        logger.info(f"[NEW][FILE] {filename} downloaded")
+    elif row[0] != sha256:
+        # E4: content changed -> replace local file and bump version.
+        new_version = (row[1] or 1) + 1
+        with open(local_path, "wb") as f:
+            f.write(content)
+        cur.execute(
+            "UPDATE downloaded_files SET sha256 = %s, url = %s, version = %s, "
+            "last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
+            (sha256, full_url, new_version, filename),
+        )
+        cur.execute(
+            "INSERT INTO file_versions (filename, sha256, version) VALUES (%s, %s, %s);",
+            (filename, sha256, new_version),
+        )
+        logger.warning(f"[CHANGED][FILE] {filename} replaced (hash differs, v{new_version})")
+    else:
+        cur.execute(
+            "UPDATE downloaded_files SET last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
+            (filename,),
+        )
+    conn.commit()
+    cur.close()
+    return True
+
+
+def _catalog_files(base_url):
+    """
+    Read the file catalogue (data/files.json) — the single source of truth for
+    which files exist on the source. Returns a list of (filename, full_url) or
+    None if the catalogue itself could not be fetched/parsed.
+    """
+    json_url = urljoin(base_url, "data/files.json")
     try:
-        logger.info("Starting HTML scraping from local site")
-        response = requests.get(BASE_URL)
-        soup = BeautifulSoup(response.content, "html.parser")
-        files = soup.find_all("a", href=True)
-        # Filter links to find files with specific extensions
-        for file_link in files:
-            href = file_link["href"]
-            if any(href.lower().endswith(ext) for ext in [".pdf", ".jpg", ".png", ".docx"]):
-                full_url = urljoin(BASE_URL, href)
-                file_name = os.path.basename(href)
-                local_path = os.path.join(DOWNLOAD_FOLDER, file_name)
-                # Check if the file is already processed
-                file_response = requests.get(full_url)
-                content = file_response.content
-                sha256 = hash_file(content)
-                found_files[file_name] = sha256
-                # Check if the file exists in the database
-                conn = get_connection()
-                cur = conn.cursor()
-                cur.execute("SELECT sha256 FROM downloaded_files WHERE filename = %s;", (file_name,))
-                result = cur.fetchone()
-                # If the file is new or changed, save it
-                if result is None:
-                    with open(local_path, "wb") as f:
-                        f.write(content)
-                    cur.execute(
-                        "INSERT INTO downloaded_files (filename, url, sha256) VALUES (%s, %s, %s);",
-                        (file_name, full_url, sha256)
-                    )
-                    logger.info(f"[NEW][HTML] {file_name} downloaded")
-                elif result[0] != sha256:
-                    with open(local_path, "wb") as f:
-                        f.write(content)
-                    cur.execute(
-                        "UPDATE downloaded_files SET sha256 = %s, last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
-                        (sha256, file_name)
-                    )
-                    logger.warning(f"[CHANGED][HTML] {file_name} updated (different hash)")
-                else:
-                    cur.execute(
-                        "UPDATE downloaded_files SET last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
-                        (file_name,)
-                    )
-                # Commit changes to the database
-                conn.commit()
-                cur.close()
-                conn.close()
-    except Exception as e:
-        logger.exception("Error processing files from HTML")
-    # Scrape from JSON data endpoint
+        resp = requests.get(json_url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        entries = resp.json()
+    except (requests.RequestException, ValueError) as exc:
+        logger.error(f"Could not read file catalogue {json_url}: {exc}")
+        return None
+
+    files = []
+    for entry in entries:
+        url = entry.get("url")
+        if not url:
+            continue
+        filename = entry.get("filename") or os.path.basename(url)
+        files.append((filename, urljoin(base_url, url)))
+    return files
+
+
+def _html_files(base_url):
+    """Best-effort: also pick up any direct <a href> file links in the HTML."""
+    content = _fetch(base_url)
+    if content is None:
+        return []
+    soup = BeautifulSoup(content, "html.parser")
+    files = []
+    for link in soup.find_all("a", href=True):
+        href = link["href"]
+        if href.lower().endswith(FILE_EXTENSIONS):
+            files.append((os.path.basename(href), urljoin(base_url, href)))
+    return files
+
+
+def scrape_static_site(base_url=None):
+    """Run a full static-site scrape with file change detection."""
+    base_url = (base_url or STATIC_BASE_URL).rstrip("/") + "/"
+    logger.info(f"Starting static-site scrape from {base_url}")
+    os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+    init_db()
+
+    catalog = _catalog_files(base_url)
+    catalog_ok = catalog is not None
+
+    # Combine the JSON catalogue (authoritative) with any HTML file links.
+    sources = list(catalog or [])
+    sources += _html_files(base_url)
+    # De-duplicate by filename, preserving order.
+    seen, unique_sources = set(), []
+    for filename, url in sources:
+        if filename not in seen:
+            seen.add(filename)
+            unique_sources.append((filename, url))
+
+    conn = get_connection()
+    found_files = set()
     try:
-        logger.info("Fetching files from JSON API...")
-        json_url = urljoin(BASE_URL, "data/files.json")
-        response = requests.get(json_url)
-        if response.status_code == 200:
-            files_data = response.json()
-            for file in files_data:
-                file_url = file.get("url")
-                file_name = os.path.basename(file_url)
-                local_path = os.path.join(DOWNLOAD_FOLDER, file_name)
-                # Check if the file is already processed
-                file_response = requests.get(file_url)
-                content = file_response.content
-                sha256 = hash_file(content)
-                found_files[file_name] = sha256
-                # Check if the file exists in the database
-                conn = get_connection()
-                cur = conn.cursor()
-                cur.execute("SELECT sha256 FROM downloaded_files WHERE filename = %s;", (file_name,))
-                result = cur.fetchone()
-                # If the file is new or changed, save it
-                if result is None:
-                    with open(local_path, "wb") as f:
-                        f.write(content)
-                    cur.execute(
-                        "INSERT INTO downloaded_files (filename, url, sha256) VALUES (%s, %s, %s);",
-                        (file_name, file_url, sha256)
-                    )
-                    logger.info(f"[NEW][JSON] {file_name} downloaded from JSON")
-                elif result[0] != sha256:
-                    with open(local_path, "wb") as f:
-                        f.write(content)
-                    cur.execute(
-                        "UPDATE downloaded_files SET sha256 = %s, last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
-                        (sha256, file_name)
-                    )
-                    logger.warning(f"[CHANGED][JSON] {file_name} updated (different hash)")
-                else:
-                    cur.execute(
-                        "UPDATE downloaded_files SET last_seen = CURRENT_TIMESTAMP WHERE filename = %s;",
-                        (file_name,)
-                    )
-                # Commit changes to the database
-                conn.commit()
-                cur.close()
-                conn.close()
+        for filename, full_url in unique_sources:
+            try:
+                _process_file(conn, filename, full_url, found_files)
+            except Exception:
+                conn.rollback()
+                logger.exception(f"Error processing file {filename}")
+
+        # E5: deletion sweep — only when the catalogue was actually readable.
+        if catalog_ok:
+            cur = conn.cursor()
+            cur.execute("SELECT filename FROM downloaded_files;")
+            db_files = [r[0] for r in cur.fetchall()]
+            for db_file in db_files:
+                if db_file not in found_files:
+                    logger.warning(f"[DELETED][FILE] {db_file} removed from source")
+                    try:
+                        os.remove(os.path.join(DOWNLOAD_DIR, db_file))
+                    except FileNotFoundError:
+                        pass
+                    except OSError as exc:
+                        logger.warning(f"Could not delete local {db_file}: {exc}")
+                    cur.execute("DELETE FROM downloaded_files WHERE filename = %s;", (db_file,))
+            conn.commit()
+            cur.close()
         else:
-            logger.error(f"Failed to fetch JSON files: {response.status_code}")
-    except Exception as e:
-        logger.exception("Error processing files from JSON")
-    # Clean up files not present anymore
-    try:
-        conn = get_connection()
-        cur = conn.cursor()
-        cur.execute("SELECT filename FROM downloaded_files;")
-        all_db_files = [row[0] for row in cur.fetchall()]
-        # Check for files that are no longer found
-        for db_file in all_db_files:
-            if db_file not in found_files:
-                logger.warning(f"[DELETED] {db_file} is no longer found")
-                try:
-                    os.remove(os.path.join(DOWNLOAD_FOLDER, db_file))
-                except:
-                    pass
-                cur.execute("DELETE FROM downloaded_files WHERE filename = %s;", (db_file,))
-        # Finalize database connection
-        conn.commit()
-        cur.close()
+            logger.warning(
+                "[GUARD] file catalogue unreachable; skipping deletion sweep so "
+                "a transient failure cannot purge tracked files."
+            )
+    finally:
         conn.close()
-    except Exception as e:
-        logger.exception("Error during deletion check")
-    # Log the end of scraping
-    logger.info("Scraping completed.")
+
+    logger.info(f"Static-site scrape complete ({len(found_files)} files seen).")
+
+
+if __name__ == "__main__":
+    scrape_static_site()

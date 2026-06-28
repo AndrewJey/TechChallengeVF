@@ -1,86 +1,42 @@
 [
   {
     "id": 1,
-    "filename": "file_example_MP3_700KB.mp3",
-    "type": "MP3",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/11/file_example_MP3_700KB.mp3"
+    "filename": "Sample_Data.csv",
+    "type": "CSV",
+    "size": 67,
+    "version": 1,
+    "sha256": "dd410d445a195c7653f4a4fdd688c0ab245abe2f3f99024d717323269a867af8",
+    "downloaded": "2026-06-27T19:39:29.262116",
+    "url": "http://127.0.0.1:4598/files/Sample_Data.csv"
   },
   {
     "id": 2,
-    "filename": "file_example_MP4_480_1_5MG.mp4",
-    "type": "MP4",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/04/file_example_MP4_480_1_5MG.mp4"
+    "filename": "README.txt",
+    "type": "TXT",
+    "size": 251,
+    "version": 2,
+    "sha256": "b6f4bf4478a4e054e2bf09789ea8ebeb177ae9605977e3eb8a3b1d450140a47a",
+    "downloaded": "2026-06-27T19:39:29.258921",
+    "url": "http://127.0.0.1:4598/files/README.txt"
   },
   {
     "id": 3,
-    "filename": "file_example_CSV_5000.csv",
-    "type": "CSV",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file_example_CSV_5000.csv"
+    "filename": "Company_Logo.png",
+    "type": "PNG",
+    "size": 69,
+    "version": 1,
+    "sha256": "44ed5b6e596a30aeecbffa61e718e661e1ba5f1a7e24d2d1e98d75b3ef082cf0",
+    "downloaded": "2026-06-27T19:39:29.248043",
+    "url": "http://127.0.0.1:4598/files/Company_Logo.png"
   },
   {
     "id": 4,
-    "filename": "iso_8859-1.txt",
-    "type": "TXT",
-    "size": 1024000,
-    "url": "https://www.w3.org/TR/PNG/iso_8859-1.txt"
-  },
-  {
-    "id": 5,
-    "filename": "system-3209577_1280.jpg",
-    "type": "JPG",
-    "size": 1024000,
-    "url": "https://cdn.pixabay.com/photo/2018/03/08/15/50/system-3209577_1280.jpg"
-  },
-  {
-    "id": 6,
-    "filename": "company-logo-transparent-png-19.png",
-    "type": "PNG",
-    "size": 1024000,
-    "url": "https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png"
-  },
-  {
-    "id": 7,
-    "filename": "file_example_XLSX_50.xlsx",
-    "type": "XLSX",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file_example_XLSX_50.xlsx"
-  },
-  {
-    "id": 8,
-    "filename": "dummy.pdf",
+    "filename": "Project_Proposal.pdf",
     "type": "PDF",
-    "size": 1024000,
-    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
-  },
-  {
-    "id": 9,
-    "filename": "file_example_PPT_250kB.ppt",
-    "type": "PPT",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/08/file_example_PPT_250kB.ppt"
-  },
-  {
-    "id": 10,
-    "filename": "file-sample_100kB.docx",
-    "type": "DOCX",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file-sample_100kB.docx"
-  },
-  {
-    "id": 11,
-    "filename": "file_example_XLSX_10.xlsx",
-    "type": "XLSX",
-    "size": 1024000,
-    "url": "https://file-examples.com/storage/fe19e15eac6560f8c936254/2017/02/file_example_XLSX_10.xlsx"
-  },
-  {
-    "id": 12,
-    "filename": "c4611_sample_explain.pdf",
-    "type": "PDF",
-    "size": 1024000,
-    "url": "https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf"
+    "size": 439,
+    "version": 1,
+    "sha256": "854ec919035c85585276275e11764db7c75d0a7ef2f68e8d494b9f489f3f2569",
+    "downloaded": "2026-06-27T19:39:29.216087",
+    "url": "http://127.0.0.1:4598/files/Project_Proposal.pdf"
   }
 ]

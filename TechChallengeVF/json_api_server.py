@@ -1,60 +1,74 @@
-# API to serve JSON data for a web dashboard
+# -*- coding: utf-8 -*-
+"""
+Optional Flask API serving the same product/file data as JSON.
+
+Runs on its own port (default 5001, override with API_PORT) so it never
+collides with the static site served by `python -m http.server` (port 8000).
+"""
+import os
+
 from flask import Flask, jsonify
-from Connections.database import get_connection
 from flask_cors import CORS
-from datetime import datetime
-# Flask application to serve JSON data for the web dashboard
+
+from Connections.config import DOWNLOAD_DIR
+from Connections.database import get_connection
+
 app = Flask(__name__)
-CORS(app)  # Enable CORS in case the browser blocks requests
-# Endpoint to get the list of products with metadata
+CORS(app)
+
+
 @app.route("/data/results.json")
 def get_results():
     try:
         conn = get_connection()
         cur = conn.cursor()
-        cur.execute("SELECT title, price, image_url FROM products ORDER BY id DESC;")
+        cur.execute(
+            "SELECT title, price, image_url, url, first_seen "
+            "FROM products ORDER BY id DESC;"
+        )
         rows = cur.fetchall()
         cur.close()
         conn.close()
-        # Prepare the product data for the response
-        results = []
-        for i, row in enumerate(rows):
-            results.append({
-                "id": i + 1,
-                "title": row[0],
-                "category": "Cell Phones",
-                "description": f"Price: {row[1]}",
-                "date": datetime.now().isoformat()
-            })
-        return jsonify(results)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-# Endpoint to get the list of downloaded files with metadata
+        return jsonify([
+            {
+                "id": i,
+                "title": title,
+                "category": "Celulares",
+                "description": f"Precio: {price}",
+                "date": first_seen.isoformat() if first_seen else None,
+                "image_url": image_url,
+                "url": url,
+            }
+            for i, (title, price, image_url, url, first_seen) in enumerate(rows, start=1)
+        ])
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
+
+
 @app.route("/data/files.json")
 def get_files():
     try:
         conn = get_connection()
         cur = conn.cursor()
-        cur.execute("SELECT filename, url FROM downloaded_files ORDER BY id DESC;")
+        cur.execute(
+            "SELECT filename, url, sha256, version FROM downloaded_files ORDER BY id DESC;"
+        )
         rows = cur.fetchall()
         cur.close()
         conn.close()
-        # Prepare the file metadata for the response
         files = []
-        for i, row in enumerate(rows):
-            filename = row[0]
-            ext = filename.split('.')[-1].upper()
-            size = 1024000  # Or calculate the actual file size if stored locally
+        for i, (filename, url, sha256, version) in enumerate(rows, start=1):
+            ext = filename.split(".")[-1].upper() if "." in filename else ""
+            local_path = os.path.join(DOWNLOAD_DIR, filename)
+            size = os.path.getsize(local_path) if os.path.exists(local_path) else None
             files.append({
-                "id": i + 1,
-                "filename": filename,
-                "type": ext,
-                "size": size,
-                "url": row[1]
+                "id": i, "filename": filename, "type": ext, "size": size,
+                "version": version, "sha256": sha256, "url": url,
             })
         return jsonify(files)
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-# Endpoint to check if the server is running
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
+
+
 if __name__ == "__main__":
-    app.run(port=5500)  # Run on the same port as your static site
+    app.run(port=int(os.getenv("API_PORT", "5001")))

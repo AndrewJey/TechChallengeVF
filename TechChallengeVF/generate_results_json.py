@@ -1,33 +1,46 @@
 # -*- coding: utf-8 -*-
+"""Export the products table to data/results.json for the dashboard."""
 import json
-from datetime import datetime
+import os
+
+from Connections.config import RESULTS_JSON
 from Connections.database import get_connection
-# This script generates a JSON file with product data from the database
-def export_products_to_json(output_path="data/results.json"):
+from Connections.logger import logger
+
+
+def export_products_to_json(output_path=RESULTS_JSON):
     try:
         conn = get_connection()
         cur = conn.cursor()
-        cur.execute("SELECT title, price, image_url FROM products ORDER BY id DESC;")
+        cur.execute(
+            "SELECT title, price, image_url, url, first_seen "
+            "FROM products ORDER BY id DESC;"
+        )
         rows = cur.fetchall()
         cur.close()
         conn.close()
-        # Generate JSON file with product data
+
         results = []
-        for i, row in enumerate(rows):
+        for i, (title, price, image_url, url, first_seen) in enumerate(rows, start=1):
             results.append({
-                "id": i + 1,
-                "title": row[0],
+                "id": i,
+                "title": title,
                 "category": "Celulares",
-                "description": f"Precio: {row[1]}",
-                "date": datetime.now().isoformat()
+                "description": f"Precio: {price}",
+                # Real persisted timestamp (when the record was first scraped),
+                # not a value fabricated at export time.
+                "date": first_seen.isoformat() if first_seen else None,
+                "image_url": image_url,
+                "url": url,
             })
+
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
-        # Log successful JSON generation
-        print(f"File '{output_path}' generated successfully with {len(results)} products.")
-    # Exception handling for JSON generation
-    except Exception as e:
-        print("Error generating results.json:", e)
-# Ensure the Connections module is correctly set up to handle database connections
+        logger.info(f"Wrote {output_path} ({len(results)} products).")
+    except Exception:
+        logger.exception("Error generating results.json")
+
+
 if __name__ == "__main__":
     export_products_to_json()

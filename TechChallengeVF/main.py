@@ -1,54 +1,55 @@
-﻿# -*- coding: utf-8 -*-
-import traceback
-from Connections.logger import logger
+# -*- coding: utf-8 -*-
+"""
+Full pipeline orchestrator.
+
+Runs the whole system end-to-end and is resilient: every stage is guarded so a
+failure in one (e.g. the live site is unreachable, or the LLM key is missing)
+is logged through the structured logger and the rest of the pipeline continues.
+"""
+import generate_files_json
 import generate_results_json
-import generate_files_json  
-from Connections import pruebaLLM
-from Connections import llm_selector
+from Connections.database import init_db
+from Connections.logger import logger
+from scraper_dynamic import scrape
 from scraper_static import scrape_static_site
-from TechChallengeVF import scrape  # Real web scraping with Selenium  
-def run_scraping_full():
-    logger.info("=== START: Full system execution ===")
-    # This function orchestrates the entire scraping process, including web scraping, static file scraping, and LLM selector testing.
+
+
+def _stage(name, func, *args):
+    """Run one pipeline stage, logging and swallowing any exception."""
     try:
-        # 1. Real web scraping using Selenium
-        logger.info("Starting scraping with Selenium from Tienda Monge...")
-        scrape()
-        logger.info("Selenium scraping completed.")
+        logger.info(f"--- stage start: {name}")
+        func(*args)
+        logger.info(f"--- stage done:  {name}")
+    except Exception:
+        logger.exception(f"Stage failed: {name}")
 
-        # 2. Scraping local files (if applicable)
-        logger.info("Starting scraping of static files (localhost)...")
-        scrape_static_site()
-        logger.info("Static file scraping completed.")
 
-        # 3. Generate JSON files for web dashboard
-        logger.info("Generating results.json from database...")
-        generate_results_json.export_products_to_json()
+def run_scraping_full():
+    logger.info("=== START: full system execution ===")
+    _stage("init database schema", init_db)
+    _stage("dynamic scrape (Tienda Monge)", scrape)
+    _stage("static file scrape (localhost)", scrape_static_site)
+    _stage("export results.json", generate_results_json.export_products_to_json)
+    _stage("export files.json", generate_files_json.export_files_to_json)
+    _stage("LLM selector demo", _llm_demo)
+    logger.info("=== END: full system execution ===")
 
-        logger.info("Generating files.json from database...")
-        generate_files_json.export_files_to_json()
 
-        # 4. Run test selector using LLM (optional / for demo)
-        logger.info("Testing LLM selector generation (OpenAI)...")
-        html_fragment = """
-        <div class='product-card'>
-            <div class='product-title'>iPhone 13</div>
-            <div class='product-price'>₡850000</div>
-        </div>
-        """
-        css_selector = llm_selector.generate_selector(html_fragment, "product price", mode="css")
-        print(f"Suggested selector (CSS): {css_selector}")
+def _llm_demo():
+    """Bonus: show the LLM proposing a selector. Failures are non-fatal."""
+    from Connections.llm_selector import generate_selector
 
-        # 5. Interactive test (optional)
-        #pruebaLLM.main()  # Uncomment if you want to launch interactive console
+    html_fragment = """
+    <div class='product-card'>
+        <div class='product-title'>iPhone 13</div>
+        <div class='product-price'>₡850000</div>
+    </div>
+    """
+    selector = generate_selector(html_fragment, "product price", mode="css")
+    if selector:
+        logger.info(f"[LLM] suggested CSS selector: {selector}")
 
-        logger.info("=== END: Full system execution ===")
-
-    except Exception as e:
-        logger.error("A critical error occurred during execution.")
-        traceback.print_exc()
 
 if __name__ == "__main__":
     print("Launching: Full Technical Challenge VoiceFlip...")
     run_scraping_full()
-    input("Press any key to exit...")

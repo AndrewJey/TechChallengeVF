@@ -1,26 +1,21 @@
-# Web scraping and automated browser
-selenium
-webdriver-manager
-requests
-beautifulsoup4
+# --- Web scraping ---
+selenium==4.27.1            # dynamic (JS) site scraping
+webdriver-manager==4.0.2   # auto-manages ChromeDriver
+requests==2.32.3           # static file downloads
+beautifulsoup4==4.12.3     # HTML parsing
 
-# Database
-psycopg2-binary
+# --- Database ---
+psycopg2-binary==2.9.10    # PostgreSQL driver
 
-# Scheduling and recurring tasks
-apscheduler
+# --- Automation ---
+apscheduler==3.10.4        # hourly scheduling
 
-# Enviroment variables 
-python-dotenv
+# --- Configuration ---
+python-dotenv==1.0.1       # load .env
 
-# OpenAI API client
-openai
-azure-ai-ml
+# --- Bonus: LLM selector generation (Azure OpenAI) ---
+openai==1.59.6
 
-# LLM selector y consola
-tqdm
-
-# Others and new ones
-flask          # If you plan to use APIs
-flask-cors     # To allow requests from other sources
-pandas         # To allow manipulation of data bulk
+# --- Optional JSON API for the dashboard ---
+flask==3.1.0
+flask-cors==5.0.0

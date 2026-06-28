@@ -1,48 +1,68 @@
-﻿# -*- coding: utf-8 -*-
-# Script to generate CSS or XPath selectors using an LLM
+# -*- coding: utf-8 -*-
+"""
+Interactive CSS/XPath selector generator using the public OpenAI API.
 
-# Imports and references
-import os  # To access environment variables
-from openai import OpenAI  # OpenAI client to interact with the LLM - using ChatGPT
-from dotenv import load_dotenv  # To load environment variables from a .env file
+This is an alternative to llm_selector.py (which uses Azure OpenAI). The client
+is constructed lazily inside the functions so that importing this module never
+crashes when OPENAI_API_KEY is unset.
+"""
+import os
 
-# Load environment variables from the .env file
-load_dotenv()
+from openai import OpenAI
 
-# Initialize the OpenAI client with the API key
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+from .logger import logger
 
-# CSS or XPath selector generator using an LLM
+_client = None
+
+
+def _get_client():
+    global _client
+    if _client is not None:
+        return _client
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        logger.warning("OPENAI_API_KEY is not set; interactive selector generator disabled.")
+        return None
+    _client = OpenAI(api_key=api_key)
+    return _client
+
+
 def get_selector(html_fragment: str, target_info: str, selector_type: str = "CSS") -> str:
-    """
-    Uses an LLM to dynamically suggest a CSS or XPath selector
-    based on the provided HTML content.
-    """
+    """Use an LLM to suggest a CSS or XPath selector. Returns '' if unavailable."""
+    client = _get_client()
+    if client is None:
+        return ""
     selector_type = selector_type.upper()
-    prompt = f"Given this HTML:\n\n{html_fragment}\n\nWhat {selector_type} selector would you use to extract the {target_info}?"
-
-    # Call the OpenAI model to generate the selector
-    response = client.chat.completions.create(
-        model="gpt-4o",  # New model (currently in testing, 4.5 is more recent)
-        messages=[
-            {"role": "system", "content": "You are an expert in web scraping and HTML. Respond only with a valid selector."},
-            {"role": "user", "content": prompt}
-        ]
+    prompt = (
+        f"Given this HTML:\n\n{html_fragment}\n\n"
+        f"What {selector_type} selector would you use to extract the {target_info}?"
     )
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are an expert in web scraping and HTML. "
+                    "Respond only with a valid selector.",
+                },
+                {"role": "user", "content": prompt},
+            ],
+        )
+        return response.choices[0].message.content.strip()
+    except Exception:
+        logger.exception("LLM selector generation failed")
+        return ""
 
-    # Return the model's response content, stripping leading/trailing whitespace
-    return response.choices[0].message.content.strip()
 
-# Interactive console usage
 def main():
     print("LLM Selector Generator (CSS/XPath)")
     html_fragment = input("HTML fragment:\n")
     target_info = input("What do you want to extract? (e.g., title, price): ")
     selector_type = input("Selector type (CSS or XPath): ")
-
-    # Generate the selector using the LLM
     selector = get_selector(html_fragment, target_info, selector_type)
     print(f"\nSuggested selector ({selector_type.upper()}):\n{selector}")
-    
+
+
 if __name__ == "__main__":
     main()

@@ -1,5 +1,11 @@
 # VoiceFlip Technical Challenge — Web Scraping & Automation
 
+<!-- local-development:start -->
+## Desarrollo local
+
+Consulta [RUNNING.md](RUNNING.md) para ubicar cada componente, abrirlo en su IDE, compilarlo y conocer las comprobaciones realizadas y los requisitos pendientes.
+<!-- local-development:end -->
+
 A dynamic scraping system that extracts structured data from a real public
 website, downloads files from a locally‑served static site, persists everything
 in **PostgreSQL**, **detects changes** (new / modified / deleted records and

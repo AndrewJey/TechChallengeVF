@@ -28,3 +28,10 @@ Inventario y compilaciones locales del 2026-11-15. Una compilación correcta no 
 
 `.gitignore` excluye credenciales locales, estado del editor y salidas de las herramientas detectadas. No deja de versionar archivos que ya estaban en Git. Los manifiestos, archivos de bloqueo, recursos fuente y scripts de esquema forman parte del código.
 <!-- local-development:end -->
+
+<!-- improvements-20261119:start -->
+## Mejoras y verificación funcional (2026-11-19)
+
+- **Mejoras aplicadas:** Servidor Flask (`TechChallengeVF/json_api_server.py`) con respaldo automático a datos locales `web_sample/data/*.json`, servicio del panel en `/`, `/api/health`, cierre seguro de conexiones (`try/finally`), búsqueda en resultados, eliminación de XSS en `results.js`/`files.js` y enlaces externos seguros.
+- **Pruebas ejecutadas:** `python -m unittest discover -s tests -v` (prueba Flask `test_client()` aprobada sobre `/`, `/api/health`, `/data/results.json`, `/data/files.json` y `/data/events.json`).
+<!-- improvements-20261119:end -->
